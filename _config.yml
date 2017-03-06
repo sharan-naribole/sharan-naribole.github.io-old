@@ -13,21 +13,32 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Sharan Naribole
-email: nsharan@rice.edu
-description: Personal site for blogging grad school research, data science, internships etc.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: nsharan91
-github_username:  sharan-naribole
 
 # Build settings
 markdown: kramdown
 theme: minima
+
 gems:
   - jekyll-feed
   - jemoji
   - jekyll-seo-tag
+
 exclude:
   - Gemfile
   - Gemfile.lock
+
+
+title: Sharan Naribole
+
+email: nsharan@rice.edu
+
+description: Blogs about PhD research, data science and machine learning projects, work experience and more!
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+
+twitter_username: nsharan91
+
+github_username:  sharan-naribole
+
+mailto: nsharan@rice.edu
