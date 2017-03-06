@@ -1,13 +1,14 @@
 ---
 layout: page
 title: Research
+comments: true
 permalink: /research/
 ---
 
 **Areas of interest**
 =======
 
-My PhD research at Rice has focused on designing cross-layer MAC-PHY protocols for **60 GHz WLANs and joint Visible Light communication and RF WLANs**. My Masters thesis focused on **mobility management and service quality management of heterogeneous cellular networks**. 
+My PhD research at Rice has focused on designing cross-layer MAC-PHY protocols for **60 GHz WLANs and joint Visible Light communication and RF WLANs**. My Masters thesis focused on **mobility management and service quality management of heterogeneous cellular networks**.
 
 ​​**Publications**
 =======

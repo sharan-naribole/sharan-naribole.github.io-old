@@ -32,13 +32,16 @@ title: Sharan Naribole
 
 email: nsharan@rice.edu
 
-description: Blogs about PhD research, data science and machine learning projects, work experience and more!
+description: Blogs about wireless networking research, data science and machine learning projects, work experience and more!
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sharan-naribole.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_username: nsharan91
 
 github_username:  sharan-naribole
 
 mailto: nsharan@rice.edu
+
+disqus:
+    shortname: sharan-naribole
