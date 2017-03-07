@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Research Blog!"
+title:  "[Data Science] H-1B Visa Petitions Exploratory Data Analysis using R"
 date:   2017-03-06 01:23:26 -0600
 comments: true
 categories:
