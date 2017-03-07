@@ -1,14 +1,13 @@
 ---
 layout: page
 title: Research
-comments: true
 permalink: /research/
 ---
 
 **Areas of interest**
 =======
 
-My PhD research at Rice has focused on designing cross-layer MAC-PHY protocols for **60 GHz WLANs and joint Visible Light communication and RF WLANs**. My Masters thesis focused on **mobility management and service quality management of heterogeneous cellular networks**.
+My PhD research focuses on designing cross-layer MAC-PHY algorithms for **60 GHz WLANs and joint Visible Light communication and RF WLANs**. My Masters thesis focused on **mobility management and service quality management of heterogeneous cellular networks**.
 
 ​​**Publications**
 =======
@@ -17,7 +16,7 @@ My PhD research at Rice has focused on designing cross-layer MAC-PHY protocols f
 
 - S. Naribole, E.Chen, E. Hang, E. Knightly, "LiRa: a WLAN architecture for Visible Light Communication with a Wi-Fi uplink," _under review_ in IEEE SECON, San Diego, US, June 2017.
 
-- S. Naribole and E. Knightly, "Scalable Multicast in Highly-Directional 60 GHz WLANs," _under review_ in IEEE/ACM Transactions on Networking, San Diego, US, June 2017.
+- S. Naribole and E. Knightly, "Scalable Multicast in Highly-Directional 60 GHz WLANs," _under review_ in IEEE/ACM Transactions on Networking, 2017.
 
 - S. Naribole and E. Knightly, "Scalable Multicast in Highly-Directional 60 GHz WLANs," in Proceedings of IEEE SECON, London, UK, June 2016. ([paper](http://nsharan.blogs.rice.edu/files/2016/03/SDM-r37psb.pdf), [slides](http://networks.rice.edu/files/2016/07/SECON_SDM_sharan-2257bi8.pdf) and [1-min video](https://www.youtube.com/watch?v=-bieBfboWNA))
 
