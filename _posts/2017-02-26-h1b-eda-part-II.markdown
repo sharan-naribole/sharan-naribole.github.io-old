@@ -176,7 +176,7 @@ To conclude, in this project, I performed exploratory data analysis on the H-1B 
 
 Additional analysis can be found in the [kernel][kaggle-kernel] I shared on [Kaggle][kaggle-dataset]. I will be discussing the H-1B curated dataset that I uploaded to Kaggle in a future blog post.
 
-In the [next blog][next] of this series, I will present the design of the Shiny web app I created for users to perform their own exploration on the H-1B dataset.
+In the [next blog][next] of this series, I will present the design of the Shiny web app I created for users to perform their own exploration on the H-1B dataset. Thanks for reading!
 
 [nyc_dsa]: https://blog.nycdatascience.com/student-works/h-1b-visa-petitions-exploratory-data-analysis/
 [previous]: https://sharan-naribole.github.io/2017/02/24/h1b-eda-part-I.html
