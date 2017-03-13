@@ -160,7 +160,7 @@ Next, I dive deeper into analyzing data science positions at the granularity of 
 
 Last, I explore the relationship between cost of living and the wage offered for Data Science jobs.
 
-![Data Science COLI](/images/h_1b_eda/data_sciencecoli_wage.png "Data Science COLI")
+![Data Science COLI](/images/h_1b_eda/data_science_coli_wage.png "Data Science COLI")
 
 <center> Figure 11. Cost of Living vs Data Science job wage. </center>
 
