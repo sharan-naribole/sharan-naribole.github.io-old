@@ -1,9 +1,11 @@
 ---
 layout: post
 title:  "H-1B Visa Petitions Data Analysis using R (Part I): Data Wrangling"
-date:   2017-03-01 12:00:00 -0600
+date:   2017-02-24 12:00:00 -0600
 comments: true
 ---
+
+![H-1B Visa Header](/images/h_1b_eda/H-1B-visa.jpg "H-1B Visa Data Exploration")
 
 *Note: This is a re-post of my blog contributed to* **[NYC Data Science Academy][nyc_dsa]**.
 
@@ -88,7 +90,7 @@ site_geocodes <- cbind(geocode(top_sites),top_sites)
 
 I expect the Wages offered for the same job position might vary significantly based on the cost of living. This will be another component of my data analysis. To collect this data, I used Scrapy package in Python to collect Cost of Living plus Rent index for top cities in the US.
 
-The data was scraped from [Numbeo][numbeo] site comprising of 119 cities. The GitHub code for the Scrapy spider can be found [here][scrapy].
+The data was scraped from [Numbeo][numbeo] site comprising of 119 cities. The GitHub code for the Scrapy spider can be found [here][scrapy]. I will discuss web-scraping with Python in a future blog post.
 
 <h2> Conclusion </h2>
 

@@ -27,6 +27,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - LICENSE.md
+  - 404.md
 
 
 title: Sharan Naribole
