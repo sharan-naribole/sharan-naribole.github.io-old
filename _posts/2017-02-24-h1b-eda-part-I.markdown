@@ -94,7 +94,7 @@ The data was scraped from [Numbeo][numbeo] site comprising of 119 cities. The Gi
 
 <h2> Conclusion </h2>
 
-After completing all the above transformations, we are ready to begin the data analysis. In the next blog of this series, I discuss the key insights I drew from the curated data. Thanks for reading!
+After completing all the above transformations, we are ready to begin the data analysis. In the [next blog][next] of this series, I discuss the key insights I drew from the curated data. Thanks for reading!
 
 [nyc_dsa]: https://blog.nycdatascience.com/student-works/h-1b-visa-petitions-exploratory-data-analysis/
 [oflc-data]: https://www.foreignlaborcert.doleta.gov/performancedata.cfm
@@ -105,3 +105,4 @@ After completing all the above transformations, we are ready to begin the data a
 [ggmap]: https://github.com/dkahle/ggmap
 [numbeo]: https://www.numbeo.com/cost-of-living/country_result.jsp?country=United+States
 [scrapy]: https://github.com/sharan-naribole/H1B_visa_eda/blob/master/coli/coli/spiders/coli.py
+[next]: https://sharan-naribole.github.io/2017/02/26/h1b-eda-part-II.html

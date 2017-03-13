@@ -9,7 +9,7 @@ comments: true
 
 *Note: This is a re-post of my blog contributed to* **[NYC Data Science Academy][nyc_dsa]**.
 
-Following up on the data wrangling performed in [Part I][h-1b-part-I] of this H-1B data exploration series, we're now ready to interpret the data. I begin the data analysis by focusing on the employers with highest number of applications in the dataset and analyze the salaries offered by them with other popular employers. Next, I focus on the applications related to Data Science job positions. Last, I explore the distribution of Data Science related jobs across the US and the relationship with cost of living. Let's begin!
+Following up on the data wrangling performed in [Part I][previous] of this H-1B data exploration series, we're now ready to interpret the data. I begin the data analysis by focusing on the employers with highest number of applications in the dataset and analyze the salaries offered by them with other popular employers. Next, I focus on the applications related to Data Science job positions. Last, I explore the distribution of Data Science related jobs across the US and the relationship with cost of living. Let's begin!
 
 The code used in this blog can be found on [GitHub][github].
 
@@ -174,11 +174,14 @@ Last, I explore the relationship between cost of living and the wage offered for
 
 To conclude, in this project, I performed exploratory data analysis on the H-1B visa petition disclosure data for the period 2011-2016. I found that the employers with the most number of H-1B visa applications pay significantly lower wages compared to other employers for similar job positions offered by other employers. Also, I found that the Data Scientist position has experiences an exponential growth in terms of H-1B visa applications. Interestingly, the Data Scientist jobs are still lustered in a few hotspots with San Francisco region having the highest number.
 
-Additional analysis can be found in the [kernel][kaggle-kernel] I shared on [Kaggle][kaggle-dataset]. I will be discussing the H-1B curated dataset that I uploaded in a future blog post.
+Additional analysis can be found in the [kernel][kaggle-kernel] I shared on [Kaggle][kaggle-dataset]. I will be discussing the H-1B curated dataset that I uploaded to Kaggle in a future blog post.
 
-In the next blog of this series, I will present the design of the Shiny web app I created for users to perform their own exploration on the H-1B dataset.
+In the [next blog][next] of this series, I will present the design of the Shiny web app I created for users to perform their own exploration on the H-1B dataset.
 
 [nyc_dsa]: https://blog.nycdatascience.com/student-works/h-1b-visa-petitions-exploratory-data-analysis/
-[h-1b-part-I]: https://sharan-naribole.github.io/2017/02/24/h1b-eda-part-I.html
+[previous]: https://sharan-naribole.github.io/2017/02/24/h1b-eda-part-I.html
 [indian-IT-h1b]: https://qz.com/901292/indian-it-firms-like-wipro-tcs-and-infosys-have-been-preparing-for-changes-in-h1b-visa-laws-and-donald-trumps-america-for-several-years/
 [github]: https://github.com/sharan-naribole/H1B_visa_eda/blob/master/data_analysis.Rmd
+[next]: https://sharan-naribole.github.io/2017/02/28/h1b-eda-part-III.html
+[kaggle-kernel]: https://www.kaggle.com/nsharan/d/nsharan/h-1b-visa/exploration-round-one
+[kaggle-dataset]: https://www.kaggle.com/nsharan/h-1b-visa
