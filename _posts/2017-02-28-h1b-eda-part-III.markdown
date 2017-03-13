@@ -1,17 +1,24 @@
 ---
 layout: post
-title:  "H-1B Visa Petitions Data Analysis using R (Part III): Shiny Web App "
+title:  "H-1B Visa Petitions Data Analysis using R (Part III): Shiny Web App"
 date:   2017-02-28 12:00:00 -0600
 comments: true
 ---
 
-![H-1B Visa Header](/images/h_1b_eda/H-1B-visa.jpg "H-1B Visa Data Exploration")
+*This post is part of a series of articles on exploration of H-1B visa petitions public dataset using R language.*
 
-*Note: This is a re-post of my blog contributed to* **[NYC Data Science Academy][nyc_dsa]**.
+[Part I: Data Wrangling][h1b-part-I]
 
-In the third blog of this H-1B data exploration series, I will describe the functionality of my Shiny web app based on the H-1B dataset. The goal of this app is to enable flexible exploration of H-1B visa key metrics including number of applications and annual wage for different Job positions under different employers in different states in different time periods. The app can be accessed at [https://sharan-naribole.shinyapps.io/h_1b/](https://sharan-naribole.shinyapps.io/h_1b/).
+[Part II: Data Analysis][h1b-part-II]
 
-Please read the previous parts in this series to learn more about the dataset being used in the app as well my own analysis.
+[Part III: Shiny Web App][h1b-part-III]
+
+[Part IV: Kaggle Open Data][h1b-part-IV]
+
+## Part III: Shiny Web App
+
+In the this blog, I will describe the functionality of my Shiny web app based on the H-1B dataset. The goal of this app is to enable flexible exploration of H-1B visa key metrics including number of applications and annual wage for different Job positions under different employers in different states in different time periods. The app can be accessed at [https://sharan-naribole.shinyapps.io/h_1b/](https://sharan-naribole.shinyapps.io/h_1b/).
+
 
 ## App Inputs
 
@@ -173,7 +180,7 @@ example <- function(df, column_name, input_vec) {
 
 In this blog, I discussed the usage of my Shiny app based on the H-1B visa petition dataset. The app can be accessed at [https://sharan-naribole.shinyapps.io/h_1b/](https://sharan-naribole.shinyapps.io/h_1b/). The source code for this app can be found on [GitHub][github].
 
-In my next [blog][next], I will discuss the publication of this dataset in [Kaggle's open data platform][kaggle-dataset] and the questions other users seem to be interested in answering from this dataset. Thanks for reading!
+In my next [blog][h1b-part-IV], I will discuss the publication of this dataset in [Kaggle's open data platform][kaggle-dataset] and the questions other users seem to be interested in answering from this dataset. Thanks for reading!
 
 [nyc_dsa]: http://blog.nycdatascience.com/student-works/h-1b-visa-applications-exploration-using-shiny/
 [github]: https://github.com/sharan-naribole/H1b_visa_shiny
@@ -181,5 +188,8 @@ In my next [blog][next], I will discuss the publication of this dataset in [Kagg
 [lazyeval]: https://cran.r-project.org/web/packages/lazyeval/index.html
 [shinyapps.io]: https://www.shinyapps.io/
 [shinyapps-package]: https://github.com/rstudio/rsconnect
-[next]: https://sharan-naribole.github.io/2017/03/02/h1b-eda-part-IV.html
 [kaggle-dataset]: https://www.kaggle.com/nsharan/h-1b-visa
+[h1b-part-I]: https://sharan-naribole.github.io/2017/02/24/h1b-eda-part-I.html
+[h1b-part-II]: https://sharan-naribole.github.io/2017/02/26/h1b-eda-part-II.html
+[h1b-part-III]: https://sharan-naribole.github.io/2017/02/28/h1b-eda-part-III.html
+[h1b-part-IV]: https://sharan-naribole.github.io/2017/03/02/h1b-eda-part-IV.html

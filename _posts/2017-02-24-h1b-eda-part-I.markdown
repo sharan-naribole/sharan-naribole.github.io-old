@@ -5,7 +5,17 @@ date:   2017-02-24 12:00:00 -0600
 comments: true
 ---
 
-![H-1B Visa Header](/images/h_1b_eda/H-1B-visa.jpg "H-1B Visa Data Exploration")
+*This post is part of a series of articles on exploration of H-1B visa petitions public dataset using R language.*
+
+[Part 1: Data Wrangling][h1b-part-I]
+
+[Part 2: Data Analysis][h1b-part-II]
+
+[Part 3: Shiny Web App][h1b-part-III]
+
+[Part 4: Kaggle Open Data][h1b-part-IV]
+
+## Part I: Data Wrangling
 
 *Note: This is a re-post of my blog contributed to* **[NYC Data Science Academy][nyc_dsa]**.
 
@@ -94,7 +104,7 @@ The data was scraped from [Numbeo][numbeo] site comprising of 119 cities. The Gi
 
 <h2> Conclusion </h2>
 
-After completing all the above transformations, we are ready to begin the data analysis. In the [next blog][next] of this series, I discuss the key insights I drew from the curated data. Thanks for reading!
+After completing all the above transformations, we are ready to begin the data analysis. In the [next blog][h1b-part-2] of this series, I discuss the key insights I drew from the curated data. Thanks for reading!
 
 [nyc_dsa]: https://blog.nycdatascience.com/student-works/h-1b-visa-petitions-exploratory-data-analysis/
 [oflc-data]: https://www.foreignlaborcert.doleta.gov/performancedata.cfm
@@ -105,4 +115,7 @@ After completing all the above transformations, we are ready to begin the data a
 [ggmap]: https://github.com/dkahle/ggmap
 [numbeo]: https://www.numbeo.com/cost-of-living/country_result.jsp?country=United+States
 [scrapy]: https://github.com/sharan-naribole/H1B_visa_eda/blob/master/coli/coli/spiders/coli.py
-[next]: https://sharan-naribole.github.io/2017/02/26/h1b-eda-part-II.html
+[h1b-part-I]: https://sharan-naribole.github.io/2017/02/24/h1b-eda-part-I.html
+[h1b-part-II]: https://sharan-naribole.github.io/2017/02/26/h1b-eda-part-II.html
+[h1b-part-III]: https://sharan-naribole.github.io/2017/02/28/h1b-eda-part-III.html
+[h1b-part-IV]: https://sharan-naribole.github.io/2017/03/02/h1b-eda-part-IV.html
