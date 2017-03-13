@@ -15,7 +15,9 @@ Please read the previous parts in this series to learn more about the dataset be
 
 ## App Inputs
 
-![App Inputs](/images/h_1b_shiny/app_inputs.png "App Inputs")
+<p align="center">
+  <img src = "/images/h_1b_shiny/app_inputs.png" alt = "App Inputs" >
+</p>
 
 <center> Figure 1. App Inputs. </center>
 
