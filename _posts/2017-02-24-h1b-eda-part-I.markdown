@@ -7,13 +7,13 @@ comments: true
 
 *This post is part of a series of articles on exploration of H-1B visa petitions public dataset using R language.*
 
-[Part 1: Data Wrangling][h1b-part-I]
+[Part I: Data Wrangling][h1b-part-I]
 
-[Part 2: Data Analysis][h1b-part-II]
+[Part II: Data Analysis][h1b-part-II]
 
-[Part 3: Shiny Web App][h1b-part-III]
+[Part III: Shiny Web App][h1b-part-III]
 
-[Part 4: Kaggle Open Data][h1b-part-IV]
+[Part IV: Kaggle Open Data][h1b-part-IV]
 
 ## Part I: Data Wrangling
 
