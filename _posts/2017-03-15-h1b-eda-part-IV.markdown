@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "H-1B Visa Petitions Data Analysis using R (Part IV): Kaggle Open Data"
-date:   2017-03-02 12:00:00 -0600
+date:   2017-03-15 12:00:00 -0600
 comments: true
 ---
 
