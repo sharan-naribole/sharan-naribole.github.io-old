@@ -31,6 +31,7 @@ An important note mentioned on the source website regarding the data:
 
 > Employer-specific case information that appears on this website (and FLCDataCenter.com) was provided to OFLC by employers who submitted foreign labor certification applications. These are not employer responses to the Bureau of Labor Statistics' Occupational Employment Statistics (BLS-OES) survey. The BLS-OES program provides estimates used to assist in setting the wage levels in the FLC wage library. However, the BLS does not provide OFLC with the wage rates reported to BLS by individual businesses. The identity of respondents and the information that they report to BLS is kept in strict confidence in accordance with BLS Data Integrity Guidelines and with the Confidentiality Information Protection and Statistical Efficiency Act (CIPSEA) of 2002.
 
+
 In this project, I analyze over 3 million records of H-1B petitions in the period 2011-2016. Next, I dive into the data transformations.
 
 <h2> Dataset Description </h2>
@@ -64,7 +65,10 @@ Interestingly, 21.6% of the records have missing values regarding the Full Time 
 
 ![Full Time Position](/images/h_1b_eda/full_time_position_before_transform.jpeg "Wage Distribution by Position Type (Full-Time/Part-Time)")
 
+
+
 <center> Figure 1. Missing values for Full-Time Position </center>
+
 
 *Observations from Figure 1:*
 

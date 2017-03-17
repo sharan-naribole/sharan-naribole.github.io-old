@@ -37,6 +37,7 @@ The questions I will be answering through data include:
 
 ![High Applicant Employers - TotalApps](/images/h_1b_eda/high_app_totalapps.png "High Applicant Employers - Total Applications")
 
+
 <center> Figure 1. Total Applications in 2011-2016 by the top 10 Employers with most applications. </center>
 
 *Observations from Figure 1:*
@@ -48,6 +49,7 @@ The questions I will be answering through data include:
 3. In 2016, we observe a slight dip in the number of applications from Infosys, Wipro, Tata Consultancy, IBM India and HCL America. This might be because of increased incorporation of automation in the IT industry. According to this recent [article][indian-IT-h1b] by an IT industry stalwart, the Indian IT firms have been preparing for reduced number of H-1B visas for nearly a decade through increased focus on automation, cloud computing and artificial intelligence.
 
 ![High Applicant Employers - Share](/images/h_1b_eda/high_apps_share.png "High Applicant Employers - Share")
+
 
 <center> Figure 2. Percentage share for the employers out of the H-1B visa cap. </center>
 
@@ -61,6 +63,7 @@ In Figure 2, I assume each certified H-1B application corresponds to a unique H-
 
 ![High Applicant Employers - Common Jobs](/images/h_1b_eda/high_apps_jobs.png "High Applicant Employers - Common Jobs")
 
+
 <center> Figure 3. Most common Job Positions applied for by high-applicant employers. </center>
 
 *Observations from Figure 3:*
@@ -70,6 +73,7 @@ In Figure 2, I assume each certified H-1B application corresponds to a unique H-
 2. Consultant and Manager related jobs fill up the remaining spots.
 
 ![High Applicant Employers - Common Jobs Wage](/images/h_1b_eda/high_apps_job_wage.png "High Applicant Employers - Common Jobs Wage")
+
 
 <center> Figure 4. Salary Comparison of Most common Job Positions applied for by high-applicant employers. </center>
 
@@ -84,6 +88,7 @@ In Figure 2, I assume each certified H-1B application corresponds to a unique H-
 Based on this data, it will be interesting to find out how the wages offered to Software related job titles by the high-applicant employers compares with the top Software companies like Google, Amazon, Facebook etc. For this purpose, I filter job titles with terms including Programmer, Computer, Software, Systems and Developer from the dataset and consider these positions to be software jobs. Next, I compare the wages offered by 5 high-applicant companies including IBM, Infosys, Wipro, Tata Consultancy Services, Deloitte with Google, Amazon, Microsoft and Facebook.
 
 ![High Applicant Employers - Common Jobs Wage](/images/h_1b_eda/software_job_comparison.png "High Applicant Employers - Common Jobs Wage")
+
 
 <center> Figure 5. Wage Comparison of Employers for Software Jobs. </center>
 
@@ -101,6 +106,7 @@ Next, I focus on the Data Science related job positions out of my personal inter
 
 ![Data Science Apps](/images/h_1b_eda/data_science_jobs.png "Data Science Apps")
 
+
 <center> Figure 6. H-1B Visa Applications for Data Science jobs. </center>
 
 *Observations from Figure 6:*
@@ -112,6 +118,7 @@ Next, I focus on the Data Science related job positions out of my personal inter
 3. In 2016, Data Scientist position broke the 1000 barrier on the number of H-1B Visa applications.
 
 ![Data Science Wage](/images/h_1b_eda/data_science_wage.png "Data Science Wage")
+
 
 <center> Figure 7. Wages for Data Science jobs. </center>
 
@@ -126,6 +133,7 @@ Next, I focus on the Data Science related job positions out of my personal inter
 <p align="center">
   <img src = "/images/h_1b_eda/datascience_state.png" alt = "Data Science State" >
 </p>
+
 
 <center> Figure 8. H-1B Visa applications for Data Science jobs per State. </center>
 
@@ -143,8 +151,8 @@ This result is expected as these states are hub of technology innovation with Ca
 
 ![Data Science State Wage](/images/h_1b_eda/datascience_state_wage.png "Data Science State Wage")
 
-<center> Figure 9. Mean Annual Wage for Data Science jobs per State. </center>
 
+<center> Figure 9. Mean Annual Wage for Data Science jobs per State. </center>
 
 *Observations from Figure 9:*
 
@@ -157,6 +165,7 @@ This result is expected as these states are hub of technology innovation with Ca
 Next, I dive deeper into analyzing data science positions at the granularity of Worksite city.
 
 ![Data Science City](/images/h_1b_eda/datascience_city_jobs.png "Data Science City")
+
 
 <center> Figure 10. Hot spots for Data Science Jobs. </center>
 
@@ -171,6 +180,7 @@ Next, I dive deeper into analyzing data science positions at the granularity of 
 Last, I explore the relationship between cost of living and the wage offered for Data Science jobs.
 
 ![Data Science COLI](/images/h_1b_eda/datascience_coli_wage.png "Data Science COLI")
+
 
 <center> Figure 11. Cost of Living vs Data Science job wage. </center>
 

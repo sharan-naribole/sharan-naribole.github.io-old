@@ -14,7 +14,7 @@ My PhD research focuses on designing cross-layer MAC-PHY algorithms for **60 GHz
 
 - S. Naribole, E.Chen, E. Hang, E. Knightly, "Design of Visible Light Communication WLAN with a Wi-Fi uplink," _under review_ in IEEE Journal on Selected Areas in Communications Special Issue on Localisation, Communication and Networking with VLC, 2017.
 
-- S. Naribole, E.Chen, E. Hang, E. Knightly, "LiRa: a WLAN architecture for Visible Light Communication with a Wi-Fi uplink," _under review_ in IEEE SECON, San Diego, US, June 2017.
+- S. Naribole, S.Chen, E. Hang, E. Knightly, "LiRa: a WLAN architecture for Visible Light Communication with a Wi-Fi uplink," in Proceedings of IEEE SECON, San Diego, US, June 2017.
 
 - S. Naribole and E. Knightly, "Scalable Multicast in Highly-Directional 60 GHz WLANs," _under review_ in IEEE/ACM Transactions on Networking, 2017.
 

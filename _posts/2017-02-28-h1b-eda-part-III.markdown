@@ -26,7 +26,9 @@ In the this blog, I will describe the functionality of my Shiny web app based on
   <img src = "/images/h_1b_shiny/app_inputs.png" alt = "App Inputs" >
 </p>
 
+
 <center> Figure 1. App Inputs. </center>
+
 
 As shown in Figure 1, the input to the app can be provided in the side panel. The app takes multiple inputs from user and provides data visualization corresponding to the related sub-section of the data set. Summary of the inputs:
 
@@ -53,6 +55,7 @@ Additional control parameter for upper limit on the number of categories to be u
 ### Map
 
 ![Map Output](/images/h_1b_shiny/map.png "Map Output")
+
 
 <center> Figure 2. Map Output. </center>
 
@@ -99,6 +102,7 @@ As shown in Figure 3, Job type tab compares the metric for the Job types supplie
 
 ![Location Output](/images/h_1b_shiny/location.png "Location Output")
 
+
 <center> Figure 4. Location comparison. </center>
 
 As shown in Figure 4, Location tab compares the metric for the input jobs at different Worksites within the input Location region. In the above figure, the selected input was the default USA. In that case, the app displays the metric for the top N work sites, where N is the Plot Categories input. The top N sites are chosen by looking across all the years in the year range input. In the above example with default job inputs related to Data Science, we clearly observe San Francisco leading the charts closely followed by New York.
@@ -106,6 +110,7 @@ As shown in Figure 4, Location tab compares the metric for the input jobs at dif
 ### Employers
 
 ![Employers Output](/images/h_1b_shiny/employers.png "Employers Output")
+
 
 <center> Figure 5. Employer comparison. </center>
 
