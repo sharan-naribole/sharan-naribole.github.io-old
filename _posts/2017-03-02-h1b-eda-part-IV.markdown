@@ -29,6 +29,14 @@ According to Wikipedia,
 
 In 2017, Kaggle has not only become a central hub for Machine Learning competitions but also one of the best platforms for [open datasets][kaggle-datasets]! Personally, I love the [Kaggle kernels][kaggle-kernels] where you can explore codes and visualizations of fellow Kagglers and also share your own work. While getting my hands dirty with the famous [Titanic][kaggle-titanic] dataset, I picked up a ton of skills including XGBoost algorithm design, state-of-the-art stacking techniques and feature selection tricks just from reading the top Kaggle kernels and related forum discussion of the Titanic competition.
 
+## Dataset of the Week!
+
+![Kaggle H-1B Dataset of the Week](/images/h_1b_kaggle/h1_b_kaggle.png "Kaggle H-1B Dataset of the Week")
+
+Two weeks after the [H-1B dataset][kaggle-h1b] was published, I was delighted to receive an email from Megan Risdal, Marketing Manager at Kaggle informing me that my dataset was chosen as Dataset of the Week for March 15 - March 16 2017. It will also be included in the first of Kaggle's new monthly [blog][kaggle-blog] series "Dataset of the Week” as well as the newsletter.
+
+The dataset got promoted on Kaggle's social media including [Twitter][kaggle-twitter] and [Facebook][kaggle-facebook]. In the first two and half weeks of dataset getting published, there have nearly 1000 downloads and 56 kernels created to explore the dataset.
+
 ## Kaggle Dataset
 
 The instructions provided while uploading to Kaggle were quite helpful. Due to the 500 MB limit on data upload, I made slight changes to the dataset I used for my own analysis and for the Shiny app. The columns in the dataset include:
@@ -54,19 +62,11 @@ The instructions provided while uploading to Kaggle were quite helpful. Due to t
 10. **lat**: latitude of the Worksite
 
 
-## Dataset of the Week! :feelsgood:
-
-![Kaggle H-1B Dataset of the Week](/images/public_outreach/grad_student_stem_share.png "Kaggle H-1B Dataset of the Week")
-
-Two weeks after the [H-1B dataset][kaggle-h1b] was published, I was delighted to receive an email from Megan Risdal, Marketing Manager at Kaggle informing me that my dataset was chosen as Dataset of the Week for March 15 - March 16 2017. It will also be included in the first of Kaggle's new monthly [blog][kaggle-blog] series "Dataset of the Week” as well as the newsletter.
-
-The dataset got promoted on Kaggle's social media including [Twitter][kaggle-twitter] and [Facebook][kaggle-facebook]. In the first two and half weeks of dataset getting published, there have nearly 1000 downloads and 56 kernels created to explore the dataset.
-
 ## Conclusion and Future Work
 
 This brings an end to this series on H-1B Visa Petitions Data Analysis using R. Hope you've enjoyed reading thus far and found something useful!
 
-In the next series, I analyze the popularity of top European soccer players on [Reddit][reddit], the front page of the Internet. This series will be based on Python. I will discuss right from data collection using Reddit API and webscraping packages to data analysis using the powerful **pandas** framework and finally creating a web app using Flask framework. Thanks for reading!
+In the next series, I analyze the popularity of top European soccer players on [Reddit][reddit], the front page of the Internet. This series will be fully based on Python. I will discuss right from data collection using Reddit API and webscraping packages, data analysis and visualization using the powerful *pandas* framework and *seaborn* package. Finally, I will discuss creating a web app for our data project using Flask framework. Thanks for reading!
 
 [reddit]: https://www.reddit.com/
 [kaggle-facebook]:https://www.facebook.com/kaggle/photos/a.10150387148668464.377856.135534208463/10155150524548464/
