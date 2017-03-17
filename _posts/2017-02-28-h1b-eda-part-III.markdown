@@ -197,4 +197,4 @@ In my next [blog][h1b-part-IV], I will discuss the publication of this dataset i
 [h1b-part-I]: https://sharan-naribole.github.io/2017/02/24/h1b-eda-part-I.html
 [h1b-part-II]: https://sharan-naribole.github.io/2017/02/26/h1b-eda-part-II.html
 [h1b-part-III]: https://sharan-naribole.github.io/2017/02/28/h1b-eda-part-III.html
-[h1b-part-IV]: https://sharan-naribole.github.io/2017/03/02/h1b-eda-part-IV.html
+[h1b-part-IV]: https://sharan-naribole.github.io/2017/03/15/h1b-eda-part-IV.html
