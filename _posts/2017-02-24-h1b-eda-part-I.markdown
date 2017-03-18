@@ -108,7 +108,7 @@ The data was scraped from [Numbeo][numbeo] site comprising of 119 cities. The Gi
 
 <h2> Conclusion </h2>
 
-After completing all the above transformations, we are ready to begin the data analysis. In the [next blog][h1b-part-2] of this series, I discuss the key insights I drew from the curated data. Thanks for reading!
+After completing all the above transformations, we are ready to begin the data analysis. In the [next blog][h1b-part-II] of this series, I discuss the key insights I drew from the curated data. Thanks for reading!
 
 [nyc_dsa]: https://blog.nycdatascience.com/student-works/h-1b-visa-petitions-exploratory-data-analysis/
 [oflc-data]: https://www.foreignlaborcert.doleta.gov/performancedata.cfm
