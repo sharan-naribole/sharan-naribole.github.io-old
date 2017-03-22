@@ -20,7 +20,7 @@ My PhD research focuses on designing cross-layer MAC-PHY algorithms for **60 GHz
 
 - S. Naribole and E. Knightly, "Scalable Multicast in Highly-Directional 60 GHz WLANs," in Proceedings of IEEE SECON, London, UK, June 2016. ([paper](http://nsharan.blogs.rice.edu/files/2016/03/SDM-r37psb.pdf), [slides](http://networks.rice.edu/files/2016/07/SECON_SDM_sharan-2257bi8.pdf) and [1-min video](https://www.youtube.com/watch?v=-bieBfboWNA))
 
-- S. Naribole, "Small Cells and Mobile Clients: a Measurement Study of an Operational Network," Masters Thesis, December 2014. ([abstract](http://networks.rice.edu/files/2014/08/sharan_MS_abstract.pdf))
+- S. Naribole, "Small Cells and Mobile Clients: a Measurement Study of an Operational Network," Masters Thesis, December 2014. ([thesis](http://nsharan.blogs.rice.edu/files/2017/03/thesis-1wpf3z5.pdf),[abstract](http://networks.rice.edu/files/2014/08/sharan_MS_abstract.pdf))
 
 - J. Chen, S. Quadri, L. Pollonini, S. Naribole, J. Ding, Z. Zheng, E. Knightly, and C. Dacso, "Blue Scale: Early Detection of Impending Congestive Heart Failure Events via Wireless Daily Self-Monitoring," in Proceedings of IEEE EMBS Special Topic Conference on Healthcare Innovation and Point-of-Care Technologies, Seattle, WA, October 2014. ([paper](http://networks.rice.edu/files/2014/10/CP-10-3-14.pdf))​
 
