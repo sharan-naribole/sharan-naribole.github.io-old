@@ -48,6 +48,8 @@ First, I describe the key elements of the data. The data set includes 40 columns
 
 5. **CASE_STATUS**: Status associated with the last significant event or decision. Valid values include “Certified,” “Certified-Withdrawn,” Denied,” and “Withdrawn”. This feature will help us analyze what share of the H-1B visa is taken by different employers/ job positions.
 
+**UPDATE:** The CASE_STATUS field denotes the status of the application after LCA processing. Certified applications are filed with USCIS for H-1B approval. **CASE_STATUS: CERTIFIED does not mean the applicant got his/her H-1B visa approved, it just means that he/she is eligible to file an H-1B.** The random allocation is performed in the next stage by USCIS. For more details on this update, read this [discussion](https://www.kaggle.com/nsharan/h-1b-visa/discussion/30691#post170928) on Kaggle. Credits go to [Jagan Gurumurthy](https://www.kaggle.com/jagang) for figuring this out.
+
 Other important columns include Unit of Pay and whether the Job position is a Full Time position or a Part-Time position.
 
 <h2> Data Transformations </h2>

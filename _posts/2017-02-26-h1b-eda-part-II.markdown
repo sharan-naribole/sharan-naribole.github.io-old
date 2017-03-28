@@ -55,6 +55,10 @@ The questions I will be answering through data include:
 
 In Figure 2, I assume each certified H-1B application corresponds to a unique H-1B visa. Accordingly, if an employer's 8500 H-1B visa applications were certified then it's percentage share in the 85,000 visa cap is 10%. I use the CASE_STATUS column in the records to find out if a H-1B Visa petition has been certified or not.
 
+**UPDATE:** The CASE_STATUS field denotes the status of the application after LCA processing. Certified applications are filed with USCIS for H-1B approval. **CASE_STATUS: CERTIFIED does not mean the applicant got his/her H-1B visa approved, it just means that he/she is eligible to file an H-1B.** The random allocation is performed in the next stage by USCIS. For more details on this update, read this [discussion](https://www.kaggle.com/nsharan/h-1b-visa/discussion/30691#post170928) on Kaggle. Credits go to [Jagan Gurumurthy](https://www.kaggle.com/jagang) for figuring this out.
+
+Based on this update, this plot represents the scenario when the companies shown in the figure have 100% success in the random allocation.
+
 *Observations from Figure 2:*
 
 1. Over 90% of the certified H-1B visa applications belong to the employers

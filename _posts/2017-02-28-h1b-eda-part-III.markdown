@@ -47,6 +47,8 @@ The default inputs are left blank as that might be the most common use case. Exp
 5. **Metric:**
 The three input metric choices are Total number of H-1B Visa applications, Certified number of Visa Applications and median annual Wage.
 
+**UPDATE:** Certified applications are filed with USCIS for H-1B approval. **CASE_STATUS: CERTIFIED does not mean the applicant got his/her H-1B visa approved, it just means that he/she is eligible to file an H-1B.** The random allocation is performed in the next stage by USCIS. For more details on this update, read this [discussion](https://www.kaggle.com/nsharan/h-1b-visa/discussion/30691#post170928) on Kaggle. Credits go to [Jagan Gurumurthy](https://www.kaggle.com/jagang) for figuring this out.
+
 6. **Plot Categories:**
 Additional control parameter for upper limit on the number of categories to be used for data visualization. Default value is 3 and can be increased up to 15.
 
