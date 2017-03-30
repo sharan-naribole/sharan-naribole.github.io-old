@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Edison Meets Marconi: Paper Accepted to IEEE SECON 2017"
-date:   2017-03-25 12:00:00 -0600
+date:   2017-03-28 12:00:00 -0600
 comments: true
 ---
 
