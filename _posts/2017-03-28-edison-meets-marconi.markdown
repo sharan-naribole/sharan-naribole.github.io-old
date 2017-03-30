@@ -19,7 +19,7 @@ I shouldn't digress further. **Rice Engineering** publishing an article about my
 
 **LiRa: a WLAN architecture for Visible Light Communication with a Wi-Fi Uplink** was written by me and Shuqing “Erica” Chen and Yuqiang “Ethan” Heng, both seniors. All of us belong to the Rice Networks Group of Edward W. Knightly, professor, chair of ECE and co-author of the paper, who refers to the project as “Edison meets Marconi.”
 
-## Visible Light Communication 
+## Visible Light Communication
 
 Visible light communication (VLC) is an emerging technology that uses LED-based lighting for illumination and communication. Ceiling-mounted luminaries can modulate lighting in a manner undetectable by the human eye but that can be detected by mobile devices equipped with photo diodes surfaces. VLC-enabled luminaries can support low-rate “Internet of Things” applications and Gigabit-rate wireless networking for live HD video streaming.
 
@@ -59,6 +59,7 @@ I am excited to visit San Diego :sunglasses: La Jolla Cove :heart:
 
 Thanks for reading!
 
+[pureLiFi]: http://purelifi.com/
 [60ghz-multicast]:http://ieeexplore.ieee.org/document/7733014/
 [rice-engg]: https://engineering.rice.edu/secon_conference_paper
 [rice-undergrads]: https://engineering.rice.edu/
