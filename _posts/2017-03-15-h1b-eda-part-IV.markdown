@@ -5,7 +5,7 @@ date:   2017-03-15 12:00:00 -0600
 comments: true
 ---
 
-*This post is part of a series of articles on exploration of H-1B visa petitions public dataset using R language.*
+*This post is part of a series of blogs on exploration of H-1B visa petitions public dataset using R language.*
 
 [Part I: Data Wrangling][h1b-part-I]
 
@@ -64,9 +64,9 @@ The instructions provided while uploading to Kaggle were quite helpful. Due to t
 
 ## Conclusion and Future Work
 
-This brings an end to this series on H-1B Visa Petitions Data Analysis using R. Hope you've enjoyed reading thus far and found something useful!
+This brings an end to this series on H-1B Visa Petitions Data Analysis using R. Hope you've enjoyed reading thus far and found something useful! Thanks!
 
-In the next series, I analyze the popularity of top European soccer players on [Reddit][reddit], the front page of the Internet. This series will be fully based on Python. I will discuss right from data collection using Reddit API and webscraping packages, data analysis and visualization using the powerful *pandas* framework and *seaborn* package. Finally, I will discuss creating a web app for our data project using Flask framework. Thanks for reading!
+#In the next series, I analyze the popularity of top European soccer players on [Reddit][reddit], the front page of the Internet. This series will be fully based on Python. I will discuss right from data collection using Reddit API and webscraping packages, data analysis and visualization using the powerful *pandas* framework and *seaborn* package. Finally, I will discuss creating a web app for our data project using Flask framework. Thanks for reading!
 
 [reddit]: https://www.reddit.com/
 [kaggle-facebook]:https://www.facebook.com/kaggle/photos/a.10150387148668464.377856.135534208463/10155150524548464/

@@ -5,7 +5,7 @@ date:   2017-02-28 12:00:00 -0600
 comments: true
 ---
 
-*This post is part of a series of articles on exploration of H-1B visa petitions public dataset using R language.*
+*This post is part of a series of blogs on exploration of H-1B visa petitions public dataset using R language.*
 
 [Part I: Data Wrangling][h1b-part-I]
 
