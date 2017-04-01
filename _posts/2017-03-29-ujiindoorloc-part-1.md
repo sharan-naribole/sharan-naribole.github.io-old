@@ -15,9 +15,6 @@ comments: true
 
 - Part IV: Ensemble Learning
 
-
-## Part I: Predicor Pre-Processing
-
 In this series, I begin from the raw UJIIndoorLoc dataset and perform an initial exploratory data analysis on the distributions of the predictors. This is followed by dimensionality reduction analysis. Once the data is prepared, I focus on understanding the response characteristics and cost function formulation. Once the response is well-understood, I utilize cross-validation  to evaluate various machine learning models. Finally, the best models are chosen to form a superior ensemble for indoor fingerprinting-based localization.
 
 The code used in this blog can be found on [GitHub][github-code].
@@ -43,7 +40,7 @@ train_data = pd.read_csv("data/trainingData.csv")
 test_data = pd.read_csv("data/validationData.csv")
 ```
 
-# Dataset Description
+## Dataset Description
 
 UjiIndoorLoc is the first publicly-available database for indoor localization. With the help of this database, researchers can now compare and benchmark state-of-the-art algorithms. Part of the motivation was the famous MNIST dataset which is a standard dataset used in the field of Computer Vision for performance evaluation.
 
@@ -290,18 +287,6 @@ abs_min = (X_exp_train.apply(min).min())
 X_exp_train.fillna(abs_min,inplace=True)
 X_exp_test.fillna(abs_min,inplace=True)
 ```
-
-### Normality test
-
-In this sub-section, I will explore various normality tests and explore the distributions of  RSSI predictors.
-
-1. **Skew test**: Z-score of the test in which the null hypothesis states that that the skewness of the population that the sample was drawn from is the same as that of a corresponding normal distribution.
-
-2. **Kurtosis test**: Z-score of the test in which the null hypothesis states that the kurtosis of the population from which the sample was drawn is that of the normal distribution: kurtosis = 3(n-1)/(n+1).
-
-3. **k2**: $s^2 + k^2$, where $s$ is the z-score returned by skew test and $k$ is the z-score returned by kurtosistest.
-
-4. **p_value**: A 2-sided chi squared probability for the hypothesis test that the sample comes from a normal distribution. Same test as k2.
 
 
 ```python
@@ -597,14 +582,14 @@ I am interested in observing the univariate distribution of skewness and kurtosi
 sns.jointplot(y="Kurtosis", x="Skewness", stat_func = None,data=X_norm_post_boxcox)
 ```
 
-![png](images/wlan_localization_part_1/UJIIndoorLoc%20_54_1.png)
+![png](/images/wlan_localization_part_1/UJIIndoorLoc%20_54_1.png)
 
 
 We can observe the biggest bars are located in the region [0,1) for skewness and [0,-3) for kurtosis.
 
 Next, we can explore how much of the variance in the dataset is explained by the predictors using Principal Component Analysis (PCA).
 
-# Dimensionality Reduction
+## Dimensionality Reduction
 
 Dimensionality reduction is one of the key techniques to reduce the complexity.
 
@@ -612,7 +597,7 @@ PCA is a simple dimensionality reduction technique that applies linear transform
 
 Before we can perform the PCA analysis, we need to bring the predictors to the same scale. Then, we analyze the correlations between the predictors and remove highly correlated predictors. This is because adjoining nearly correlated variables increases the contribution of their common underlying factor to the PCA. We can remove highly correlated predictors algorithmically or removing the correlations by whitening the data (conversion to Identity Covariance Matrix).
 
-## Feature Scaling
+### Feature Scaling
 
 Most models require the predictors to be on the same scale for better performancee. The main exceptions are decision-tree based models which are not dependent on scaling as the splits are univariate.
 
@@ -650,7 +635,7 @@ print("After removing predictors with only zeros", X_rm_train.shape)
     Before removing predictors with only zeros (19861, 465)
     After removing predictors with only zeros (19861, 254)
 
-## Predictor Correlations
+### Predictor Correlations
 
 [Read this explanation][predictor-correlations] about how PCA tends to over-emphasize the contributions of correlated predictors.
 
@@ -700,7 +685,7 @@ Only 16 predictor pairs have correlation above our defined threshold. As they ar
 
 The above technique was highlighted in the Chapter 3 of **Applied Predictive Modeling** book. I've written a few personal notes on the most important information I learnt reading this chapter. You can [find it here][applied-predictive-modeling].
 
-## Principal Component Analysis (PCA)
+### Principal Component Analysis (PCA)
 
 Dimensionality reduction is one of the key techniques to reduce the complexity.
 
