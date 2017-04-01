@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Wi-Fi Fingerprint Indoor Localization using Python (Part I): Predictor Pre-Processing"
+title:  "Wi-Fi Fingerprint Indoor Localization (Part I): Predictor Pre-Processing"
 date:   2017-03-29 12:00:00 -0600
 comments: true
 ---
