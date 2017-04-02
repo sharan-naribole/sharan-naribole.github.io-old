@@ -19,6 +19,16 @@ In this series, I begin from the raw UJIIndoorLoc dataset and perform an initial
 
 The code used in this blog can be found on [GitHub][github-code].
 
+## Indoor Localization
+
+Automatic user localization consists of estimating the position of the user (latitude, longitude and altitude) by using an electronic device, usually a mobile phone. Outdoor localization problem can be solved very accurately thanks to the inclusion of GPS sensors into the mobile devices. However, indoor localization is still an open problem mainly due to the loss of GPS signal in indoor environments. With the widespread use of Wi-Fi communication in indoor environments, Wi-Fi or wireless local area network (WLAN) based positioning gained popularity to solve indoor localization.
+
+WLAN-based positioning systems utilize the Wi-Fi received signal strength indicator (RSSI) value. In this project, we focus on **fingerprint-based localization**. Fingerprinting technique consists of two phases: *calibration* and *positioning*. In the calibration phase, an extensive radio map is built consisting of RSSI values from multiple Wi-Fi Access Points (APs) at different known locations. This calibration data is used to train the localization algorithm. In the positioning phase, when a user reports the RSSI measurements for the multiple APs, the algorithm that is fit predicts the user position.
+
+A key challenge in wireless localization is that RSSI value at a given location can have large fluctuations due to Wi-Fi interference, user mobility, environmental mobility etc.
+
+Let's begin the analysis!
+
 ```python
 import numpy as np
 import pandas as pd
