@@ -625,16 +625,6 @@ Final step is to merge the coli\_data frame with our main data frame. I perform 
 h1b_df_tx <- left_join(h1b_df_tx,coli_data, by = "WORKSITE")
 ```
 
-<h2>
-Conclusion
-</h2>
-Now that I performed all the key data transformations, I save the final dataframe into an RDS file. This dataframe will be used for both data analysis as well as interactive Shiny web dashboard application.
-
-``` r
-saveRDS(h1b_df_tx,"h1b_transformed.rds")
-```
-
-
 <h2> Conclusion </h2>
 
 After completing all the above transformations, we are ready to begin the data analysis. In the [next blog][h1b-part-II] of this series, I discuss the key insights I drew from the curated data. Thanks for reading!
