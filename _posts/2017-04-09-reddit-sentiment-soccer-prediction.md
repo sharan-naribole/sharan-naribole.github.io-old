@@ -29,7 +29,7 @@ This is more of a fun project that I worked on this weekend :smile:
 
 <a id ="introduction"></a>
 
-**The code for this blog is on** [GitHub](https://github.com/sharan-naribole/reddit_sentiment_soccer-prediction).
+**The code for this blog is on** [GitHub](https://github.com/sharan-naribole/reddit-sentiment-soccer-prediction/blob/master/Reddit%20Sentiment-based%20Match%20Result%20Prediction.ipynb).
 
 ## 1. Introduction
 
