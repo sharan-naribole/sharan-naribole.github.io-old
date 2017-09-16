@@ -9,11 +9,10 @@ comments: true
 
 - [Part I: Predictor Pre-Processing][wlan-loc-1]
 
-- Part II: Response Characterization
+- [Part II: Latitude and Longitude Regression][wlan-loc-2]
 
-- Part III: Model Selection
+- [Part III: Cascade Indoor Localization][wlan-loc-3]
 
-- Part IV: Ensemble Learning
 
 In this series, I begin from the raw UJIIndoorLoc dataset and perform an initial exploratory data analysis on the distributions of the predictors. This is followed by dimensionality reduction analysis. Once the data is prepared, I focus on understanding the response characteristics and cost function formulation. Once the response is well-understood, I utilize cross-validation  to evaluate various machine learning models. Finally, the best models are chosen to form a superior ensemble for indoor fingerprinting-based localization.
 
@@ -779,3 +778,5 @@ In this blog, we started from the raw UJIIndoorLoc dataset and worked our way in
 [predictor-correlations]: (http://stats.stackexchange.com/questions/50537/should-one-remove-highly-correlated-variables-before-doing-pca)
 [applied-predictive-modeling]: (https://github.com/sharan-naribole/applied-predictive-modeling/blob/master/Chapter-3.md).
 [wlan-loc-1]: https://sharan-naribole.github.io/2017/03/29/ujiindoorloc-part-I.html
+[wlan-loc-2]: https://sharan-naribole.github.io/2017/04/21/ujiindoorloc-part-II.html
+[wlan-loc-3]: https://sharan-naribole.github.io/2017/04/28/ujiindoorloc-part-III.html
