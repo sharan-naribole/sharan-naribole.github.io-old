@@ -93,8 +93,6 @@ The key extensions I performed include:
 
 
 
-
-
 <a id ="data-analysis"></a>
 
 ## 5. Data Analysis
@@ -183,14 +181,6 @@ news_df['wow_ratio'] = news_df['num_wows'] / (news_df['num_reactions'] - news_df
 sns.jointplot(x = "positive_ratio", y = "negative_ratio", data = news_df)
 ```
 
-
-
-
-    <seaborn.axisgrid.JointGrid at 0x1100427f0>
-
-
-
-
 ![png](/images/news-topic-stress-impact/output_27_1.png)
 
 
@@ -207,14 +197,6 @@ Next, I show wow reaction has little correlation with either the positive reacti
 sns.jointplot(x = "positive_ratio", y = "wow_ratio", data = news_df)
 ```
 
-
-
-
-    <seaborn.axisgrid.JointGrid at 0x110020940>
-
-
-
-
 ![png](/images/news-topic-stress-impact/output_29_1.png)
 
 
@@ -222,13 +204,6 @@ sns.jointplot(x = "positive_ratio", y = "wow_ratio", data = news_df)
 ```python
 sns.jointplot(x = "negative_ratio", y = "wow_ratio", data = news_df)
 ```
-
-
-
-
-    <seaborn.axisgrid.JointGrid at 0x1108a2550>
-
-
 
 
 ![png](/images/news-topic-stress-impact/output_30_1.png)
@@ -296,19 +271,6 @@ g = sns.countplot(x = "topic", data = news_df,
 g.set_xticklabels(g.get_xticklabels(),rotation=30)
 ```
 
-
-
-
-    [<matplotlib.text.Text at 0x111494390>,
-     <matplotlib.text.Text at 0x1114a6cc0>,
-     <matplotlib.text.Text at 0x11149c860>,
-     <matplotlib.text.Text at 0x110ee0278>,
-     <matplotlib.text.Text at 0x111497898>,
-     <matplotlib.text.Text at 0x111500f28>]
-
-
-
-
 ![png](/images/news-topic-stress-impact/output_37_1.png)
 
 
@@ -321,13 +283,6 @@ g = sns.boxplot(x = "topic", y = "stress_score", data = news_df,
 g.set_xticklabels(g.get_xticklabels(),rotation=30)
 plt.title("The Guardian")
 ```
-
-
-
-
-    <matplotlib.text.Text at 0x11171df98>
-
-
 
 ![png](/images/news-topic-stress-impact/output_38_1.png)
 
@@ -358,8 +313,3 @@ I performed similar analysis for also LA Times. This will allow us to compare th
 ## 6. Conclusion
 
 In conclusion, I analyzed Facebook reaction data for news articles shared on the official pages of leading newspapers. My analysis shows a strong negative correlation between positive reaction ratio and negative reaction ratio for an article. Moreover, significant variance was observed in stress score across the different news topics!
-
-
-```python
-
-```
