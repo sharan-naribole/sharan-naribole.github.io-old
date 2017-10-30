@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Wi-Fi Fingerprint Indoor Localization (Part I): Predictor Pre-Processing"
-date:   2017-03-29 12:00:00 -0600
+date:   2017-08-27 12:00:00 -0600
 comments: true
 ---
 

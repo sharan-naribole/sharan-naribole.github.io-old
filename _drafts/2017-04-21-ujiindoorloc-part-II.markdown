@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Wi-Fi Fingerprint Indoor Localization (Part II): Latitude-Longitude Regression"
-date:   2017-04-21 12:00:00 -0600
+date:   2017-09-03 12:00:00 -0600
 comments: true
 ---
 
@@ -222,7 +222,7 @@ sns.distplot(y_crossval[['BUILDINGID']],kde=False)
 
 
 
-![png](UJIIndoorLoc-machine-learning_files/UJIIndoorLoc-machine-learning_15_1.png)
+![png](/images/wlan_localization_part_2_3/UJIIndoorLoc-machine-learning_15_1.png)
 
 
 *Observations*:
@@ -255,7 +255,7 @@ plt.tight_layout()
 ```
 
 
-![png](UJIIndoorLoc-machine-learning_files/UJIIndoorLoc-machine-learning_17_0.png)
+![png](/images/wlan_localization_part_2_3/UJIIndoorLoc-machine-learning_17_0.png)
 
 
 The above plot illustrates the locations of the buildings in the campus.
@@ -282,7 +282,7 @@ plt.tight_layout()
 ```
 
 
-![png](UJIIndoorLoc-machine-learning_files/UJIIndoorLoc-machine-learning_19_0.png)
+![png](/images/wlan_localization_part_2_3/UJIIndoorLoc-machine-learning_19_0.png)
 
 
 The above plot illustrates how the buildingID are distributed across the top two PCA dimensions. Later, I explore the machine learning approaches for the building classification.
@@ -305,8 +305,7 @@ sns.countplot(x="FLOOR", hue="BUILDINGID", data=y_crossval,orient="v")
 
 
 
-
-![png](UJIIndoorLoc-machine-learning_files/UJIIndoorLoc-machine-learning_23_1.png)
+![png](/images/wlan_localization_part_2_3/UJIIndoorLoc-machine-learning_23_1.png)
 
 
 *Observations*:
@@ -314,8 +313,6 @@ sns.countplot(x="FLOOR", hue="BUILDINGID", data=y_crossval,orient="v")
 1. Buildings 0 and 1 have 4 floors whereas Building 2 has 5 floors.
 
 2. Expectedly, the samples from Building 2 are consistently the highest across all the floors.
-
-<p><a name="Problem Formulation"></p>
 
 <p><a name="problem-formulation"></a></p>
 
@@ -722,7 +719,7 @@ plt.xticks([-1,0,1,2,3,4,5])
 
 
 
-![png](UJIIndoorLoc-machine-learning_files/UJIIndoorLoc-machine-learning_55_1.png)
+![png](/images/wlan_localization_part_2_3/UJIIndoorLoc-machine-learning_55_1.png)
 
 
 
@@ -842,9 +839,6 @@ print('Holdout RMSE: %.3f' % (knn_holdout_bf[key]))
     Holdout RMSE: 5.280
 
 
-*Observations:*
-
-
 #### 4.6.1 Learning Curve
 
 
@@ -898,7 +892,7 @@ plt.show()
 ```
 
 
-![png](UJIIndoorLoc-machine-learning_files/UJIIndoorLoc-machine-learning_67_0.png)
+![png](/images/wlan_localization_part_2_3/UJIIndoorLoc-machine-learning_67_0.png)
 
 
 ## 5. Per-Building Per-Floor Regression
@@ -1106,163 +1100,7 @@ knn_metric_df.columns = ['LOCAL_CROSSVAL_MEAN','LOCAL_CROSSVAL_STD',
                          'LOCAL_TRAINING_RMSE','LOCAL_HOLDOUT_RMSE',
                          'GLOBAL_TRAINING_RMSE','GLOBAL_HOLDOUT_RMSE']
 knn_metric_df = knn_metric_df.rename_axis(['BUILDING','FLOOR'])
-
-knn_metric_df
 ```
-
-
-
-
-<div>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th></th>
-      <th>LOCAL_CROSSVAL_MEAN</th>
-      <th>LOCAL_CROSSVAL_STD</th>
-      <th>LOCAL_TRAINING_RMSE</th>
-      <th>LOCAL_HOLDOUT_RMSE</th>
-      <th>GLOBAL_TRAINING_RMSE</th>
-      <th>GLOBAL_HOLDOUT_RMSE</th>
-    </tr>
-    <tr>
-      <th>BUILDING</th>
-      <th>FLOOR</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th rowspan="4" valign="top">0</th>
-      <th>0</th>
-      <td>5.691794</td>
-      <td>0.613491</td>
-      <td>0.000000</td>
-      <td>3.721516</td>
-      <td>0.000000</td>
-      <td>4.104056</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>4.521504</td>
-      <td>0.240275</td>
-      <td>0.000000</td>
-      <td>3.181676</td>
-      <td>0.000000</td>
-      <td>3.344496</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>4.464538</td>
-      <td>0.435352</td>
-      <td>0.000000</td>
-      <td>3.714566</td>
-      <td>0.000000</td>
-      <td>3.903611</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4.338431</td>
-      <td>0.250252</td>
-      <td>0.000000</td>
-      <td>3.318346</td>
-      <td>0.000000</td>
-      <td>3.487934</td>
-    </tr>
-    <tr>
-      <th rowspan="4" valign="top">1</th>
-      <th>0</th>
-      <td>4.864209</td>
-      <td>0.282106</td>
-      <td>0.034580</td>
-      <td>4.068500</td>
-      <td>0.034580</td>
-      <td>4.368735</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>6.774995</td>
-      <td>0.447157</td>
-      <td>1.574920</td>
-      <td>5.280390</td>
-      <td>1.655120</td>
-      <td>5.772645</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>5.262697</td>
-      <td>0.361693</td>
-      <td>0.000000</td>
-      <td>2.649491</td>
-      <td>0.000000</td>
-      <td>3.509122</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>7.332723</td>
-      <td>0.624791</td>
-      <td>0.175444</td>
-      <td>4.790580</td>
-      <td>0.175444</td>
-      <td>5.603787</td>
-    </tr>
-    <tr>
-      <th rowspan="5" valign="top">2</th>
-      <th>0</th>
-      <td>6.042158</td>
-      <td>0.477696</td>
-      <td>0.000000</td>
-      <td>4.063582</td>
-      <td>0.000000</td>
-      <td>4.421867</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>5.325626</td>
-      <td>0.368800</td>
-      <td>0.000000</td>
-      <td>4.062683</td>
-      <td>0.000000</td>
-      <td>4.745174</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>4.968733</td>
-      <td>0.589341</td>
-      <td>0.000000</td>
-      <td>3.756872</td>
-      <td>0.000000</td>
-      <td>4.717787</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>3.921544</td>
-      <td>0.346219</td>
-      <td>0.000000</td>
-      <td>2.768463</td>
-      <td>0.000000</td>
-      <td>3.151703</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>8.173584</td>
-      <td>0.815517</td>
-      <td>5.961735</td>
-      <td>6.761393</td>
-      <td>6.180908</td>
-      <td>6.861010</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
 
 
 ```python
@@ -1277,7 +1115,7 @@ knn_metric_df[['LOCAL_CROSSVAL_MEAN','LOCAL_HOLDOUT_RMSE','GLOBAL_HOLDOUT_RMSE']
 
 
 
-![png](UJIIndoorLoc-machine-learning_files/UJIIndoorLoc-machine-learning_75_1.png)
+![png](/images/wlan_localization_part_2_3/UJIIndoorLoc-machine-learning_75_1.png)
 
 
 
@@ -1396,148 +1234,7 @@ best_local_metric_df = (pd.concat([pd.Series(best_local_model),
 best_local_metric_df.columns = ['BEST_LOCAL_MODEL','BEST_LOCAL_CROSSVAL_MEAN','BEST_LOCAL_CROSSVAL_STD',
                          'BEST_LOCAL_TRAINING_RMSE','BEST_LOCAL_HOLDOUT_RMSE']
 best_local_metric_df = best_local_metric_df.rename_axis(['BUILDING','FLOOR'])
-
-best_local_metric_df
 ```
-
-
-
-
-<div>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th></th>
-      <th>BEST_LOCAL_MODEL</th>
-      <th>BEST_LOCAL_CROSSVAL_MEAN</th>
-      <th>BEST_LOCAL_CROSSVAL_STD</th>
-      <th>BEST_LOCAL_TRAINING_RMSE</th>
-      <th>BEST_LOCAL_HOLDOUT_RMSE</th>
-    </tr>
-    <tr>
-      <th>BUILDING</th>
-      <th>FLOOR</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th rowspan="4" valign="top">0</th>
-      <th>0</th>
-      <td>KNN</td>
-      <td>5.691794</td>
-      <td>0.613491</td>
-      <td>0.000000</td>
-      <td>3.721516</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>KNN</td>
-      <td>4.521504</td>
-      <td>0.240275</td>
-      <td>0.000000</td>
-      <td>3.181676</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>KNN</td>
-      <td>4.464538</td>
-      <td>0.435352</td>
-      <td>0.000000</td>
-      <td>3.714566</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>KNN</td>
-      <td>4.338431</td>
-      <td>0.250252</td>
-      <td>0.000000</td>
-      <td>3.318346</td>
-    </tr>
-    <tr>
-      <th rowspan="4" valign="top">1</th>
-      <th>0</th>
-      <td>KNN</td>
-      <td>4.864209</td>
-      <td>0.282106</td>
-      <td>0.034580</td>
-      <td>4.068500</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>KNN</td>
-      <td>6.774995</td>
-      <td>0.447157</td>
-      <td>1.574920</td>
-      <td>5.280390</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>KNN</td>
-      <td>5.262697</td>
-      <td>0.361693</td>
-      <td>0.000000</td>
-      <td>2.649491</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>KNN</td>
-      <td>7.332723</td>
-      <td>0.624791</td>
-      <td>0.175444</td>
-      <td>4.790580</td>
-    </tr>
-    <tr>
-      <th rowspan="5" valign="top">2</th>
-      <th>0</th>
-      <td>KNN</td>
-      <td>6.042158</td>
-      <td>0.477696</td>
-      <td>0.000000</td>
-      <td>4.063582</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>KNN</td>
-      <td>5.325626</td>
-      <td>0.368800</td>
-      <td>0.000000</td>
-      <td>4.062683</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>KNN</td>
-      <td>4.968733</td>
-      <td>0.589341</td>
-      <td>0.000000</td>
-      <td>3.756872</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>KNN</td>
-      <td>3.921544</td>
-      <td>0.346219</td>
-      <td>0.000000</td>
-      <td>2.768463</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>KNN</td>
-      <td>8.173584</td>
-      <td>0.815517</td>
-      <td>5.961735</td>
-      <td>6.761393</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
 
 
 ```python
@@ -1545,7 +1242,7 @@ best_local_metric_df[['BEST_LOCAL_CROSSVAL_MEAN','BEST_LOCAL_TRAINING_RMSE','BES
 ```
 
 
-![png](UJIIndoorLoc-machine-learning_files/UJIIndoorLoc-machine-learning_80_1.png)
+![png](/images/wlan_localization_part_2_3/UJIIndoorLoc-machine-learning_80_1.png)
 
 
 Interestingly, among the models compared, weighted KNN consistently has the minimum cross-validation RMSE independent of the building and floor.
