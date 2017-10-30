@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Influence of News Topics on Facebook-based Stress Impact Scores"
-date:   2017-08-27 12:00:00 -0600
+date:   2017-10-29 12:00:00 -0600
 comments: true
 ---
 
