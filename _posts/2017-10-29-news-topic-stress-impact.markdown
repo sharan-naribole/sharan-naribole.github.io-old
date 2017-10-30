@@ -5,7 +5,7 @@ date:   2017-10-29 12:00:00 -0600
 comments: true
 ---
 
-<img src="images/news-topic-stress-impact/facebook_reactions.png" alt="Smiley face">
+![png](/images/news-topic-stress-impact/facebook_reactions.png)
 
 ## Table of Contents
 
@@ -191,7 +191,7 @@ sns.jointplot(x = "positive_ratio", y = "negative_ratio", data = news_df)
 
 
 
-![png](images/news-topic-stress-impact/news-topic-stress-impact/output_27_1.png)
+![png](/images/news-topic-stress-impact/output_27_1.png)
 
 
 **Observations:**
@@ -215,7 +215,7 @@ sns.jointplot(x = "positive_ratio", y = "wow_ratio", data = news_df)
 
 
 
-![png](images/news-topic-stress-impact/output_29_1.png)
+![png](/images/news-topic-stress-impact/output_29_1.png)
 
 
 
@@ -231,7 +231,7 @@ sns.jointplot(x = "negative_ratio", y = "wow_ratio", data = news_df)
 
 
 
-![png](images/news-topic-stress-impact/output_30_1.png)
+![png](/images/news-topic-stress-impact/output_30_1.png)
 
 
 <a id ="stress-score-analysis"></a>
@@ -309,7 +309,7 @@ g.set_xticklabels(g.get_xticklabels(),rotation=30)
 
 
 
-![png](images/news-topic-stress-impact/output_37_1.png)
+![png](/images/news-topic-stress-impact/output_37_1.png)
 
 
 
@@ -329,7 +329,7 @@ plt.title("The Guardian")
 
 
 
-![png](images/news-topic-stress-impact/output_38_1.png)
+![png](/images/news-topic-stress-impact/output_38_1.png)
 
 
 **Observations:**
@@ -344,7 +344,7 @@ plt.title("The Guardian")
 
 I performed similar analysis for also LA Times. This will allow us to compare the stress score across news agencies. The plot similar to above is displayed below.
 
-<img src="images/news-topic-stress-impact/latimes_stress_score.png" alt="Smiley face" height="500" width="500">
+![png](/images/news-topic-stress-impact/latimes_stress_score.png)
 
 **Observations:**
 
