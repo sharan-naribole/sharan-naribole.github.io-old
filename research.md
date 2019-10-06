@@ -7,7 +7,7 @@ permalink: /research/i
 **Areas of interest**
 =======
 
-Currently an active contributor to IEEE 802.11 standards development activities with particular focus on IEEE 802.11be key features: multi-channel/multi-band operation and multi-AP coordination. My PhD research focuses on designing cross-layer MAC-PHY algorithms for **60 GHz WLANs and joint Visible Light communication and RF WLANs**. My Masters thesis focused on **mobility management and service quality management of heterogeneous cellular networks**.
+Currently an active contributor to IEEE 802.11 standards development activities with particular focus on **IEEE 802.11be technologies: multi-channel/multi-band operation and multi-AP coordination**. My PhD research focused on designing cross-layer MAC-PHY algorithms for 60 GHz WLANs and joint Visible Light communication and RF WLANs. My Masters thesis focused on mobility management and service quality management of heterogeneous cellular networks.
 
 **Publications**
 =======
