@@ -26,17 +26,17 @@ Currently an active contributor to IEEE 802.11 standards development activities 
 **IEEE 802.11 Standards Contributions**
 =======
 
-- TGbe 11-19/1505, "Multi-link Aggregation Considerations," September 2019. [slides] (https://mentor.ieee.org/802.11/dcn/19/11-19-1505-01-00be-multi-link-aggregation-considerations.pptx)
+- TGbe 11-19/1505, "Multi-link Aggregation Considerations," September 2019. ([slides](https://mentor.ieee.org/802.11/dcn/19/11-19-1505-01-00be-multi-link-aggregation-considerations.pptx))
 
-- TGbe 11-19/1451, "Virtual BSS for Multi-AP Coordination Follow up," September 2019. [slides] (https://mentor.ieee.org/802.11/dcn/19/11-19-1451-01-00be-virtual-bss-for-multi-ap-coordination-follow-up.pptx)
+- TGbe 11-19/1451, "Virtual BSS for Multi-AP Coordination Follow up," September 2019. ([slides](https://mentor.ieee.org/802.11/dcn/19/11-19-1451-01-00be-virtual-bss-for-multi-ap-coordination-follow-up.pptx))
 
-- TGbe 11-19/1405, "Multi-link Channel Access Discussion," September 2019. [slides] (https://mentor.ieee.org/802.11/dcn/19/11-19-1405-01-00be-multi-link-operation-channel-access-discussion.pptx)
+- TGbe 11-19/1405, "Multi-link Channel Access Discussion," September 2019. ([slides](https://mentor.ieee.org/802.11/dcn/19/11-19-1405-01-00be-multi-link-operation-channel-access-discussion.pptx))
 
-- TGbe 11-19/824, "Multi-band Operation Performance," July 2019. [slides] (https://mentor.ieee.org/802.11/dcn/19/11-19-0824-03-00be-multi-band-operation-performance.pptx)
+- TGbe 11-19/824, "Multi-band Operation Performance," July 2019. ([slides](https://mentor.ieee.org/802.11/dcn/19/11-19-0824-03-00be-multi-band-operation-performance.pptx))
 
-- EHT TIG/SG 11-19/360, "MAC Architectures for EHT Multi-band Operation," March 2019. [slides] (https://mentor.ieee.org/802.11/dcn/19/11-19-0360-00-0eht-mac-architectures-for-eht-multi-band-operation.pptx)
+- EHT TIG/SG 11-19/360, "MAC Architectures for EHT Multi-band Operation," March 2019. ([slides](https://mentor.ieee.org/802.11/dcn/19/11-19-0360-00-0eht-mac-architectures-for-eht-multi-band-operation.pptx))
 
-- TGax 11-18/1827, "6 GHz operation for 11ax follow up", Jan 2019. [slides] (https://mentor.ieee.org/802.11/dcn/18/11-18-1827-01-00ax-6-ghz-operation-for-11ax-follow-up.pptx)
+- TGax 11-18/1827, "6 GHz operation for 11ax follow up", Jan 2019. ([slides](https://mentor.ieee.org/802.11/dcn/18/11-18-1827-01-00ax-6-ghz-operation-for-11ax-follow-up.pptx))
 
 
 **Posters**
