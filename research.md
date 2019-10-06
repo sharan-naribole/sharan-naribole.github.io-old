@@ -1,16 +1,18 @@
 ---
 layout: page
 title: Research
-permalink: /research/
+permalink: /research/i
 ---
 
 **Areas of interest**
 =======
 
-My PhD research focuses on designing cross-layer MAC-PHY algorithms for **60 GHz WLANs and joint Visible Light communication and RF WLANs**. My Masters thesis focused on **mobility management and service quality management of heterogeneous cellular networks**.
+Currently an active contributor to IEEE 802.11 standards development activities with particular focus on IEEE 802.11be key features: multi-channel/multi-band operation and multi-AP coordination. My PhD research focuses on designing cross-layer MAC-PHY algorithms for **60 GHz WLANs and joint Visible Light communication and RF WLANs**. My Masters thesis focused on **mobility management and service quality management of heterogeneous cellular networks**.
 
-​​**Publications**
+**Publications**
 =======
+- S. Naribole, Wook Bong Lee and Ashok Ranganath, "Impact of MU EDCA channel access on IEEE 802.11ax WLANs," in Proceedings of IEEE VTC Fall, Honolulu, US, September 2019.
+
 - S. Naribole and E. Knightly, "Scalable Multicast in Highly-Directional 60 GHz WLANs," in IEEE/ACM Transactions on Networking, July 2017 ([paper](http://ieeexplore.ieee.org/document/7968480/)).
 
 - S. Naribole, S.Chen, E. Hang, E. Knightly, "LiRa: a WLAN architecture for Visible Light Communication with a Wi-Fi uplink," in Proceedings of IEEE SECON, San Diego, US, June 2017. ([paper](http://ieeexplore.ieee.org/document/7964932/) and [slides](http://networks.rice.edu/files/2017/06/SECON_FINAL-1go19fh.pdf))
@@ -21,8 +23,23 @@ My PhD research focuses on designing cross-layer MAC-PHY algorithms for **60 GHz
 
 - J. Chen, S. Quadri, L. Pollonini, S. Naribole, J. Ding, Z. Zheng, E. Knightly, and C. Dacso, "Blue Scale: Early Detection of Impending Congestive Heart Failure Events via Wireless Daily Self-Monitoring," in Proceedings of IEEE EMBS Special Topic Conference on Healthcare Innovation and Point-of-Care Technologies, Seattle, WA, October 2014. ([paper](http://ieeexplore.ieee.org/document/7038875/))​
 
+**IEEE 802.11 Standards Contributions**
+=======
 
-​**Posters**
+- TGbe 11-19/1505, "Multi-link Aggregation Considerations," September 2019. [slides] (https://mentor.ieee.org/802.11/dcn/19/11-19-1505-01-00be-multi-link-aggregation-considerations.pptx)
+
+- TGbe 11-19/1451, "Virtual BSS for Multi-AP Coordination Follow up," September 2019. [slides] (https://mentor.ieee.org/802.11/dcn/19/11-19-1451-01-00be-virtual-bss-for-multi-ap-coordination-follow-up.pptx)
+
+- TGbe 11-19/1405, "Multi-link Channel Access Discussion," September 2019. [slides] (https://mentor.ieee.org/802.11/dcn/19/11-19-1405-01-00be-multi-link-operation-channel-access-discussion.pptx)
+
+- TGbe 11-19/824, "Multi-band Operation Performance," July 2019. [slides] (https://mentor.ieee.org/802.11/dcn/19/11-19-0824-03-00be-multi-band-operation-performance.pptx)
+
+- EHT TIG/SG 11-19/360, "MAC Architectures for EHT Multi-band Operation," March 2019. [slides] (https://mentor.ieee.org/802.11/dcn/19/11-19-0360-00-0eht-mac-architectures-for-eht-multi-band-operation.pptx)
+
+- TGax 11-18/1827, "6 GHz operation for 11ax follow up", Jan 2019. [slides] (https://mentor.ieee.org/802.11/dcn/18/11-18-1827-01-00ax-6-ghz-operation-for-11ax-follow-up.pptx)
+
+
+**Posters**
 =======
 
 - S. Naribole, J. Zhang and E. Knightly, "Closing the Loop with Light and Radio," ECE Affiliates Day, Poster, Rice University, April 2016.
