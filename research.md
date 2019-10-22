@@ -13,6 +13,8 @@ Currently an active contributor to IEEE 802.11 standards development activities 
 =======
 - S. Naribole, Wook Bong Lee and Ashok Ranganath, "Impact of MU EDCA channel access on IEEE 802.11ax WLANs," in Proceedings of IEEE VTC Fall, Honolulu, US, September 2019.
 
+- S. Naribole, "Enhanced WLAN Performance with New Spectrum at 60 GHz and Visible Light," Ph.D. Thesis, May 2018. ([thesis](https://scholarship.rice.edu/handle/1911/105616)
+
 - S. Naribole and E. Knightly, "Scalable Multicast in Highly-Directional 60 GHz WLANs," in IEEE/ACM Transactions on Networking, July 2017 ([paper](http://ieeexplore.ieee.org/document/7968480/)).
 
 - S. Naribole, S.Chen, E. Hang, E. Knightly, "LiRa: a WLAN architecture for Visible Light Communication with a Wi-Fi uplink," in Proceedings of IEEE SECON, San Diego, US, June 2017. ([paper](http://ieeexplore.ieee.org/document/7964932/) and [slides](http://networks.rice.edu/files/2017/06/SECON_FINAL-1go19fh.pdf))
