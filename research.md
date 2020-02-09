@@ -32,7 +32,7 @@ Currently an active contributor to IEEE 802.11 standards development activities 
 **IEEE 802.11 Standards Contributions**
 =======
 
-- TGbe 11-19/1836, "Multi-link Channel Access Discussion Follow-up," September 2019. ([slides](https://mentor.ieee.org/802.11/dcn/19/11-19-1836-04-00be-multi-link-channel-access-follow-up.pptx))
+- TGbe 11-19/1836, "Multi-link Channel Access Discussion Follow-up," January 2020. ([slides](https://mentor.ieee.org/802.11/dcn/19/11-19-1836-04-00be-multi-link-channel-access-follow-up.pptx))
 
 - TGbe 11-19/1505, "Multi-link Aggregation Considerations," September 2019. ([slides](https://mentor.ieee.org/802.11/dcn/19/11-19-1505-01-00be-multi-link-aggregation-considerations.pptx))
 
