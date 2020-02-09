@@ -11,7 +11,11 @@ Currently an active contributor to IEEE 802.11 standards development activities 
 
 **Publications**
 =======
-- S. Naribole, Wook Bong Lee and Ashok Ranganath, "Impact of MU EDCA channel access on IEEE 802.11ax WLANs," in Proceedings of IEEE VTC Fall, Honolulu, US, September 2019. ([paper](https://ieeexplore.ieee.org/document/8891575))
+- S. Naribole, W. Lee, S. Kandala, A. Ranganath, "Simultaneous Transmit-Receive Multi-Channel Operation in Next Generation WLANs," to appear in Proceedings of IEEE WCNC, Seoul, South Korea, April 2020.
+
+- S. Naribole and E. Knightly, "LiSCAN: Visible Light Uni-Directional Control Channel for Uplink Radio Access," to appear in Proceedings of IEEE WCNC, Seoul, South Korea, April 2020.
+
+- S. Naribole, W. Lee and A. Ranganath, "Impact of MU EDCA channel access on IEEE 802.11ax WLANs," in Proceedings of IEEE VTC Fall, Honolulu, US, September 2019. ([paper](https://ieeexplore.ieee.org/document/8891575))
 
 - S. Naribole, "Enhanced WLAN Performance with New Spectrum at 60 GHz and Visible Light," Ph.D. Thesis, May 2018. ([thesis](https://scholarship.rice.edu/handle/1911/105616))
 
@@ -27,6 +31,8 @@ Currently an active contributor to IEEE 802.11 standards development activities 
 
 **IEEE 802.11 Standards Contributions**
 =======
+
+- TGbe 11-19/1836, "Multi-link Channel Access Discussion Follow-up," September 2019. ([slides](https://mentor.ieee.org/802.11/dcn/19/11-19-1836-04-00be-multi-link-channel-access-follow-up.pptx))
 
 - TGbe 11-19/1505, "Multi-link Aggregation Considerations," September 2019. ([slides](https://mentor.ieee.org/802.11/dcn/19/11-19-1505-01-00be-multi-link-aggregation-considerations.pptx))
 
