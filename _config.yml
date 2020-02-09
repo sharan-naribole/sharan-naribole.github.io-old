@@ -32,9 +32,9 @@ exclude:
 
 title: Sharan Naribole
 
-email: nsharan@rice.edu
+email: sharanmanu91@gmail.com
 
-description: Blogs about wireless networking research, data science and machine learning projects, work experience and more!
+description: Personal site
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sharan-naribole.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -43,7 +43,7 @@ twitter_username: nsharan91
 
 github_username:  sharan-naribole
 
-mailto: nsharan@rice.edu
+mailto: sharanmanu91@gmail.com
 
 disqus:
     shortname: sharan-naribole
