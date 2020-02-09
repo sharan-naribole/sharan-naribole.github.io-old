@@ -4,7 +4,7 @@
 
 # Content
 
-Site for my blogs about wireless networking research, data science and machine learning projects, work experience and more!
+Personal website
 
 # License
 
