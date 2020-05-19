@@ -31,4 +31,10 @@ can potentially support a dense network of almost 2000 STAs.
 
 ## Presentation 
 
-<iframe src='https://view.officeapps.live.com/op/embed.aspx?src=[https://github.com/sharan-naribole/sharan-naribole.github.io/blob/master/pdfs/vtc_muedca_samsung.pptx]' width='100%' height='600px' frameborder='0'>
+<iframe src="https://nbviewer.jupyter.org/github/sharan-naribole/sharan-naribole.github.io/blob/master/pdfs/VTC_2019_mu_edca.pdf" width="100%" height="600px" style="border:thick solid #708090 ;">Your browser does not support the PDF embedding. Please download slides using the link above. </iframe>
+
+# Paper
+
+[IEEE Link][ieee]
+
+[ieee]: https://ieeexplore.ieee.org/document/8891575
