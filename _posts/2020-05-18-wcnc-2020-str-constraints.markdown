@@ -25,6 +25,8 @@ to constrained STAs and improves access delay performance.
 
 ## Slides
 
+sharan-naribole.github.io/pdfs/wcnc_2020_str_constraints.pdf
+
 <iframe src="https://nbviewer.jupyter.org/github/sharan-naribole/sharan-naribole.github.io/blob/master/pdfs/wcnc_2020_str_constraints.pdf" width="100%" height="600px" style="border:thick solid #708090 ;">Your browser does not support the PDF embedding. </iframe>
 
 ## Video Talk
