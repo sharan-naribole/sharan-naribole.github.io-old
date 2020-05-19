@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "IEEE VTC Fall 2019 - Impact of MU EDCA channel access on IEEE 802.11ax WLANs"
+date:   2019-09-25 12:00:00 -0600
+comments: true
+---
+
+Presented accepted paper at IEEE VTC Fall 2019, Honolulu, Hawaii in September 2019. 
+Randomly bumping into Suvra Sekhar Das, my undergrad professor from IIT Kharagpur made the conference travel truly memorable.
+
+## Abstract
+
+To achieve increased radio utilization in dense WLAN deployments, IEEE 802.11ax amendment introduces Orthogonal 
+Frequency Division Multiple Access (OFDMA) to the Wi-Fi standard. As the Access Point (AP) initiates 
+the uplink OFDMA operation via a trigger, this operation provides an additional means for the end-user devices (STAs) to gain
+medium access. Consequently, to retain fairness in the network
+and reduce contention, a novel MU EDCA channel access mode
+has been introduced in 802.11ax standard to temporarily deprioritize
+medium access for STAs participating in uplink OFDMA
+operation. In this paper, we implement the key components of
+802.11ax OFDMA operation in custom ns-3 network simulator
+and evaluate the impact of MU EDCA channel access mode
+on 802.11ax dense WLAN performance under various network
+and traffic conditions. Our results show that (a) temporarily
+switching to MU EDCA channel access mode significantly improves
+network performance in terms of throughput and realtime
+application latency (b) the duration of temporary switch to
+MU EDCA channel access mode has negligible impact on network
+performance and (c) 200 ms of MU EDCA channel access mode
+can potentially support a dense network of almost 2000 STAs.
+
+## Presentation 
+
+<iframe src='https://view.officeapps.live.com/op/embed.aspx?src=[https://github.com/sharan-naribole/sharan-naribole.github.io/blob/master/pdfs/vtc_muedca_samsung.pptx]' width='100%' height='600px' frameborder='0'>
