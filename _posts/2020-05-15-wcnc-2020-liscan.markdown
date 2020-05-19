@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "IEEE WCNC 2020 - LiSCAN: Visible Light Uni-Directional Control Channel for Uplink Radio Access"
+date:   2020-05-15 12:00:00 -0600
+comments: true
+---
+
+Paper to appear in the Proceedings of IEEE WCNC 2020, Seoul, South Korea, April 2020. 
+Due to COVID-19 travel restrictions, the conference has changed to Virtual Conference including pre-recorded video of the talk.
+
+## Abstract
+
+Contention-based uplink radio access might lead to significant degradation in airtime efficiency and 
+energy efficiency as the time spent “awake” by the radio is dependent on the network traffic conditions. 
+In this paper, we design and evaluate LiSCAN, a visible light uni-directional control channel for contention-free 
+uplink radio access. LiSCAN enables a virtual full-duplex operation by broadcasting polling frames (light-polls) 
+across distributed LED luminaires concurrently with data reception over radio. In LiSCAN, each client consists of 
+an additional low-power light sensor, which upon hearing a light-poll directed to it by Access Point (AP), wakes 
+up the radio module only if there is backlogged traffic. To maximize the airtime efficiency, LiSCAN transmits 
+light-polls successively until it detects an uplink radio transmission. LiSCAN’s pipelined polling enables clients 
+to detect failure in uplink packet reception and accordingly abort their transmissions to eliminate collisions at the AP.
+We simulate LiSCAN and alternate strategies in ns-3 network simulator to analyze LiSCAN’s performance under varying 
+traffic conditions. Our results show that LiSCAN can provide significant improvements in the radio airtime efficiency, 
+the sessions delivered with pre-defined service quality requirements and energy savings.
+
+## Presentation 
+
+<p align = "center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7TZcKajH2X0" frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
