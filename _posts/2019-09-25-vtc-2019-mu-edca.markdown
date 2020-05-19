@@ -8,6 +8,10 @@ comments: true
 Presented accepted paper at IEEE VTC Fall 2019, Honolulu, Hawaii in September 2019. 
 Randomly bumping into Suvra Sekhar Das, my undergrad professor from IIT Kharagpur made the conference travel truly memorable.
 
+## Paper
+
+[IEEE Link][ieee]
+
 ## Abstract
 
 To achieve increased radio utilization in dense WLAN deployments, IEEE 802.11ax amendment introduces Orthogonal 
@@ -33,8 +37,5 @@ can potentially support a dense network of almost 2000 STAs.
 
 <iframe src="https://nbviewer.jupyter.org/github/sharan-naribole/sharan-naribole.github.io/blob/master/pdfs/vtc_2019_mu_edca.pdf" width="100%" height="600px" style="border:thick solid #708090 ;">Your browser does not support the PDF embedding. Please download slides using the link above. </iframe>
 
-# Paper
-
-[IEEE Link][ieee]
 
 [ieee]: https://ieeexplore.ieee.org/document/8891575
