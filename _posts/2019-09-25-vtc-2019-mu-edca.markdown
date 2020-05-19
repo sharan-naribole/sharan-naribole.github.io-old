@@ -12,7 +12,7 @@ Paper published in the Proceedings of  IEEE VTC Fall 2019, Honolulu, Hawaii in S
 ## Abstract
 
 To achieve increased radio utilization in dense WLAN deployments, IEEE 802.11ax amendment introduces Orthogonal 
-Frequency Division Multiple Access (OFDMA) to the Wi-Fi standard. As the Access Point (AP) initiates 
+Frequency Division Multiple Access to the Wi-Fi standard. As the Access Point (AP) initiates 
 the uplink OFDMA operation via a trigger, this operation provides an additional means for the end-user devices (STAs) to gain
 medium access. Consequently, to retain fairness in the network
 and reduce contention, a novel MU EDCA channel access mode
