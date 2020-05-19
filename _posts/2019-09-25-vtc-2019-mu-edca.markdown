@@ -5,10 +5,7 @@ date:   2019-09-25 12:00:00 -0600
 comments: true
 ---
 
-Presented accepted paper at IEEE VTC Fall 2019, Honolulu, Hawaii in September 2019. 
-Randomly bumping into Suvra Sekhar Das, my undergrad professor from IIT Kharagpur made the conference travel truly memorable.
-
-## Paper
+Paper published in the Proceedings of  IEEE VTC Fall 2019, Honolulu, Hawaii in September 2019. 
 
 [IEEE Link][ieee]
 
