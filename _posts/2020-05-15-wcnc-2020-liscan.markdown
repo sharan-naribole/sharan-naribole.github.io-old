@@ -35,6 +35,7 @@ the sessions delivered with pre-defined service quality requirements and energy 
 <iframe src="https://docs.google.com/viewer?url=https://github.com/sharan-naribole/sharan-naribole.github.io/raw/master/pdfs/wcnc_2020_liscan.pdf&embedded=true" width="100%" height="600px" style="border:thick solid #708090 ;">Your browser does not support the PDF embedding. </iframe>
 </p>
 
+
 ### Slide 1: Dense Wireless Sensor Networks
 
 Sensors have becoming a leading solution in many important applications such as industrial automation, smart buildings, telemedicine, etc. A wireless sensor network typically consists of a large number of small, low-cost sensor nodes distributed in the target area for collecting data of interest. The data flow in such networks is mainly in the uplink direction from the sensors to the Access Point. These sensors are often powered with batteries, therefore energy-efficiency is extremely important. Ideally, we would like a sensor to be awake only for its data transmission and return to sleep state immediately. However, as shown in the illustration, using contention-based access, after a sensor wakes up upon collecting new data, it might have to wait for a long time before it can transmit. 
