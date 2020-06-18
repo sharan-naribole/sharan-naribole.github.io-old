@@ -4,9 +4,7 @@ title:  "IEEE WCNC 2020 - LiSCAN: Visible Light Uni-Directional Control Channel 
 date:   2020-05-15 12:00:00 -0600
 comments: true
 ---
-
-Paper to appear in the Proceedings of IEEE WCNC 2020, Seoul, South Korea, April 2020. 
-Due to COVID-19 travel restrictions, the conference has changed to Virtual Conference including pre-recorded video of the talk.
+Presentation for paper accepted to [IEEE WCNC 2020](https://wcnc2020.ieee-wcnc.org/program/full-program), Seoul, South Korea, April 2020. 
 
 ## Abstract
 
