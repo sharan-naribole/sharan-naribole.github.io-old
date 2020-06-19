@@ -5,8 +5,7 @@ date:   2020-06-18 12:00:00 -0600
 comments: true
 ---
 
-Lightning talk presented at [Workshop on ns-3 2020](https://www.nsnam.org/research/wns3/wns3-2020/program/) virtual conference. This talk introduces 802.11be multi-link operation 
-in ns-3 and potential extensions to ns-3 Wi-Fi module.
+Lightning talk presented at [Workshop on ns-3 2020](https://www.nsnam.org/research/wns3/wns3-2020/program/) virtual conference. ns-3 is an open source software platform for modeling computer networks including Wi-Fi and conducting performance evaluation studies. This talk introduces 802.11be Multi-link Operation to ns-3 audience and discusses potential extensions to ns-3 Wi-Fi module. 
 
 ## Slides
 
