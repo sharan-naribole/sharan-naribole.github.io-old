@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "IEEE WCNC 2020 - Simultaneous Transmit-Receive Multi-Channel Operation in Next-Generation WLANs"
+title:  "IEEE WCNC 2020 - Simultaneous Transmit-Receive (STR) Constraints in IEEE 802.11be Multi-link Operation"
 date:   2020-05-18 12:00:00 -0600
 comments: true
 ---
