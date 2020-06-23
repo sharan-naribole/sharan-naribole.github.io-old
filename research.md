@@ -11,9 +11,9 @@ Currently an active contributor to IEEE 802.11 standards development activities 
 
 **Publications**
 =======
-- S. Naribole, W. Lee, S. Kandala, A. Ranganath, "Simultaneous Transmit-Receive Multi-Channel Operation in Next Generation WLANs," to appear in Proceedings of IEEE WCNC, Seoul, South Korea, April 2020.
+- S. Naribole, W. Lee, S. Kandala, A. Ranganath, "Simultaneous Transmit-Receive Multi-Channel Operation in Next Generation WLANs," in Proceedings of IEEE WCNC, Seoul, South Korea, April 2020. ([paper](https://ieeexplore.ieee.org/document/9120641))
 
-- S. Naribole and E. Knightly, "LiSCAN: Visible Light Uni-Directional Control Channel for Uplink Radio Access," to appear in Proceedings of IEEE WCNC, Seoul, South Korea, April 2020.
+- S. Naribole and E. Knightly, "LiSCAN: Visible Light Uni-Directional Control Channel for Uplink Radio Access," to appear in Proceedings of IEEE WCNC, Seoul, South Korea, April 2020. ([paper](https://ieeexplore.ieee.org/document/9120511))
 
 - S. Naribole, W. Lee and A. Ranganath, "Impact of MU EDCA channel access on IEEE 802.11ax WLANs," in Proceedings of IEEE VTC Fall, Honolulu, US, September 2019. ([paper](https://ieeexplore.ieee.org/document/8891575))
 
