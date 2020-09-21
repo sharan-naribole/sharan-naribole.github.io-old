@@ -11,6 +11,8 @@ Currently an active contributor to IEEE 802.11 standards development activities 
 
 **Publications**
 =======
+- S. Naribole, S. Kandala,  W. Lee, A. Ranganath, "Simultaneous Multi-Channel Downlink Operation in Next Generation WLANs," *to appear* in Proceedings of IEEE GLOBECOM, Taipei, Taiwan, December 2020.
+
 - S. Naribole, W. Lee, S. Kandala, A. Ranganath, "Simultaneous Transmit-Receive Multi-Channel Operation in Next Generation WLANs," in Proceedings of IEEE WCNC, Seoul, South Korea, April 2020. ([paper](https://ieeexplore.ieee.org/document/9120641))
 
 - S. Naribole and E. Knightly, "LiSCAN: Visible Light Uni-Directional Control Channel for Uplink Radio Access," in Proceedings of IEEE WCNC, Seoul, South Korea, April 2020. ([paper](https://ieeexplore.ieee.org/document/9120511))
@@ -31,6 +33,13 @@ Currently an active contributor to IEEE 802.11 standards development activities 
 
 **IEEE 802.11 Standards Contributions**
 =======
+- TGbe 11-20/977, "MLD Spatial Multiplexing Considerations," August 2020.  ([slides](https://mentor.ieee.org/802.11/dcn/20/11-20-0977-02-00be-mld-spatial-multiplexing-considerations.pptx))
+
+- TGbe 11-20/370, "Multi-link Power Save Discussion," May 2020. ([slides](https://mentor.ieee.org/802.11/dcn/20/11-20-0370-01-00be-multi-link-power-save-discussion.pptx))
+
+- TGbe 11-20/277, "Shared TXOP Operation," April 2020. ([slides](https://mentor.ieee.org/802.11/dcn/20/11-20-0277-01-00be-coordinated-ofdma-protocol.pptx))
+
+- TGbe 11-20/226, "MLO Constraint Indication and Operating Mode," March 2020. ([slides](https://mentor.ieee.org/802.11/dcn/20/11-20-0226-05-00be-mlo-constraint-indication-and-operating-mode.pptx))
 
 - TGbe 11-19/1836, "Multi-link Channel Access Discussion Follow-up," January 2020. ([slides](https://mentor.ieee.org/802.11/dcn/19/11-19-1836-04-00be-multi-link-channel-access-follow-up.pptx))
 
