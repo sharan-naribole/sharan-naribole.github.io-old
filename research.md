@@ -13,7 +13,7 @@ Currently an active contributor to IEEE 802.11 standards development activities 
 =======
 - S. Naribole, S. Kandala and A. Ranganath, "Multi-Channel Mobile Access Point in Next Generation IEEE 802.11be WLANs," accepted to IEEE ICC, Montreal, Canada, June 2021.
 
-- S. Naribole, S. Kandala,  W. Lee, A. Ranganath, "Simultaneous Multi-Channel Downlink Operation in Next Generation WLANs," in Proceedings of IEEE GLOBECOM, Taipei, Taiwan, December 2020. 
+- S. Naribole, S. Kandala,  W. Lee, A. Ranganath, "Simultaneous Multi-Channel Downlink Operation in Next Generation WLANs," in Proceedings of IEEE GLOBECOM, Taipei, Taiwan, December 2020. ([paper](https://ieeexplore.ieee.org/abstract/document/9348168))
 
 - S. Naribole, W. Lee, S. Kandala, A. Ranganath, "Simultaneous Transmit-Receive Multi-Channel Operation in Next Generation WLANs," in Proceedings of IEEE WCNC, Seoul, South Korea, April 2020. ([paper](https://ieeexplore.ieee.org/document/9120641))
 
