@@ -22,13 +22,6 @@ opportunistic backoff resumption technique significantly improves the medium uti
 to alternative strategies and (b) the multi-channel busy status indication significantly decreases the collisions due 
 to constrained STAs and improves access delay performance.
 
-## Video Talk
-
-<p align = "center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7TZcKajH2X0" frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
-
 ## Slides
 
 <p align = "center">
