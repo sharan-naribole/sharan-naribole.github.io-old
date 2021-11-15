@@ -10,12 +10,6 @@ Throughout my grad school, I have actively taken part in promoting my research a
 
 The Rice Office of STEM Engagement coordinates a [semester-long program][grad-show-n-tell] designed for graduate students and postdocs at Rice University. The program pairs grad student and postdoc participants to create a school-level presentation about their research at Rice, their individual educational backgrounds, and what inspired their interest in graduate school. Each pair is matched to a Houston ISD teacher based on content and availability, with groups coordinating a day to present their work to students in the Fall 2016 semester.
 
-<p align="center">
-  <img src = "/images/public_outreach/grad_student_stem_share.png" alt = "Grad Student Stem Share" >
-</p>
-
-<!-- ![Grad Student Stem Share](/images/public_outreach/grad_student_stem_share.png "Grad Student Stem Share") -->
-
 Together with Jaehee Park (ECE PhD student) and Corey Fisher (CS PhD Student), I presented a talk to grade 7-9 students from Energy Institute High School, Houston. In this talk, we motivated the students by discussing how our research impacts the society and provided a glimpse of grad school life :v:
 
 ## SCREECH
