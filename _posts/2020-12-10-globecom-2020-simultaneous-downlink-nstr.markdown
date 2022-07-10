@@ -13,6 +13,8 @@ The next-generation IEEE 802.11 standard project, IEEE 802.11be, is focused to m
 
 ## Slides
 
+[Download slides][slides]
+
 <p align = "center">
 <iframe src="https://docs.google.com/viewer?url=https://github.com/sharan-naribole/sharan-naribole.github.io/raw/master/pdfs/globecom_2020_downlink_nstr.pdf&embedded=true" width="100%" height="600px" style="border:thick solid #708090 ;">Your browser does not support the PDF embedding. </iframe>
 </p>
@@ -82,3 +84,5 @@ Next, we compare CADEN’s performance with alternative strategies. First, despi
 ### Slide 15: Conclusion
 
 To recap, Multi-channel operation is a key feature of next-gen IEEE 802.11be standard. In this paper, we focused on downlink data delivery to non-STR STAs. We presented CADEN, a novel design in which the non-STR STAs indicate their reception capability for simultaneous downlink transmissions and accordingly the AP adaptively constructs its data transmissions with ending alignment. In our previous work, we focused on improving uplink medium access for non-STR STAs. I also briefly highlight a few topics for future work including non-STR AP operation for example in personal hotspots and RF chain sharing across the links in a multi-channel device.
+
+[slides]: https://github.com/sharan-naribole/sharan-naribole.github.io/raw/master/pdfs/globecom_2020_downlink_nstr.pdf

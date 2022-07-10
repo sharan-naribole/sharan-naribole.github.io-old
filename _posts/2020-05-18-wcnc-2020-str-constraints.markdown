@@ -24,6 +24,8 @@ to constrained STAs and improves access delay performance.
 
 ## Slides
 
+[Download slides][slides]
+
 <p align = "center">
 <iframe src="https://docs.google.com/viewer?url=https://github.com/sharan-naribole/sharan-naribole.github.io/raw/master/pdfs/wcnc_2020_str.pdf&embedded=true" width="100%" height="600px" style="border:thick solid #708090 ;">Your browser does not support the PDF embedding. </iframe>
 </p>
@@ -69,3 +71,5 @@ To analyze CA-ASYNC’s medium utilization, we compare the aggregate uplink thro
 ### Slide 10: CA-ASYNC’s Busy Status Feedback
 
 The collision at AP due to non-STR STA Deafness issue leads to increase in contention window and consequently the backoff value at the non-STR STA and the other STA whose transmission suffered. Therefore, to analyze CA-ASYNC’s busy status feedback benefit, we compare the mean backoff value with and without Busy Status Feedback for both non-STR STAs and single channel STAs. We observe a significant decrease in mean backoff value with the inclusion of Busy Status Feedback in CA-ASYNC. This is because this mechanism completely eliminates the non-STR STA Deafness issue.
+
+[slides]: https://github.com/sharan-naribole/sharan-naribole.github.io/raw/master/pdfs/wcnc_2020_str.pdf

@@ -23,6 +23,8 @@ the sessions delivered with pre-defined service quality requirements and energy 
 
 ## Slides
 
+[Download slides][slides]
+
 <p align = "center">
 <iframe src="https://docs.google.com/viewer?url=https://github.com/sharan-naribole/sharan-naribole.github.io/raw/master/pdfs/wcnc_2020_liscan.pdf&embedded=true" width="100%" height="600px" style="border:thick solid #708090 ;">Your browser does not support the PDF embedding. </iframe>
 </p>
@@ -77,3 +79,5 @@ Next, we analyze the impact of the sensor ratio and the traffic arrival rate on 
 ### Slide 12: Related Work
 
 In our previous work, we designed LiRa, the first system to integrate VLC and RF at the MAC layer, and the first system to provide a virtual feedback channel for VLC via Wi-Fi. In contrast, LiSCAN is the first system to design a scalable uni-directional VLC control channel for contention-free RF uplink access. In-band asynchronous energy-saving MAC protocols have been proposed in literature. To further reduce the energy consumption, several works have proposed the use of additional low-power radio to aid the sensor’s wake up First, due to the spectrum scarcity, the efficiency of this operation might be significantly degraded in dense deployments. Second, a wakeup radio typically remains always active and consume energy from the attached sensor. In contrast, the illumination coverage of LED luminaires naturally provides improved spatial reuse even in dense deployments and the energy-autonomous nature of the wake-up VLC receivers leads to negligible impact on the sensor’s energy.
+
+[slides]: https://github.com/sharan-naribole/sharan-naribole.github.io/raw/master/pdfs/wcnc_2020_liscan.pdf

@@ -9,6 +9,8 @@ Lightning talk presented at [Workshop on ns-3 2020](https://www.nsnam.org/resear
 
 ## Slides
 
+[Download slides][slides]
+
 <p align = "center">
 <iframe src="https://docs.google.com/viewer?url=https://github.com/sharan-naribole/sharan-naribole.github.io/raw/master/pdfs/wns3_2020_mlo_lightning_talk.pdf&embedded=true" width="100%" height="600px" style="border:thick solid #708090 ;">Your browser does not support the PDF embedding. </iframe>
 </p>
@@ -45,3 +47,5 @@ In contrast, a few other functional blocks can continue to exist at the STA leve
 ### Conclusion
 
 In conclusion, MLO, the key feature of next-generation IEEE 802.11be standard project involves a giant leap in architecture, protocol design and modeling in ns-3.
+
+[slides]: https://github.com/sharan-naribole/sharan-naribole.github.io/raw/master/pdfs/wns3_2020_mlo_lightning_talk.pdf
